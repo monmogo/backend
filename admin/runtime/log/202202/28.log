@@ -1,0 +1,3991 @@
+---------------------------------------------------------------
+
+[2022-02-28T00:02:04+08:00] 129.211.166.123 GET admin.mihuantuanduidingjijishu14.com/
+[运行时间：0.022322s] [吞吐率：44.80req/s] [内存消耗：2,809.34kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Linux"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Google Chrome";v="93", " Not;A Brand";v="99", "Chromium";v="93"',
+  'host' => 'admin.mihuantuanduidingjijishu14.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T00:02:04+08:00] 129.211.166.123 GET admin.mihuantuanduidingjijishu14.com/admin/login/index/
+[运行时间：0.020589s] [吞吐率：48.57req/s] [内存消耗：2,812.93kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=443dsetmd3nhc3j123gdiv92s3',
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-ch-ua-platform' => '"Linux"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Google Chrome";v="93", " Not;A Brand";v="99", "Chromium";v="93"',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'admin.mihuantuanduidingjijishu14.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T00:02:04+08:00] 129.211.167.181 GET admin.mihuantuanduidingjijishu14.com/
+[运行时间：0.020609s] [吞吐率：48.52req/s] [内存消耗：2,809.34kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Linux"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Google Chrome";v="93", " Not;A Brand";v="99", "Chromium";v="93"',
+  'host' => 'admin.mihuantuanduidingjijishu14.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T00:02:04+08:00] 129.211.167.181 GET admin.mihuantuanduidingjijishu14.com/admin/login/index/
+[运行时间：0.020211s] [吞吐率：49.48req/s] [内存消耗：2,812.93kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=tm8rl8culqnncbb4blvf1p9jme',
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-ch-ua-platform' => '"Linux"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Google Chrome";v="93", " Not;A Brand";v="99", "Chromium";v="93"',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'admin.mihuantuanduidingjijishu14.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T00:26:52+08:00] 40.77.189.97 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/base
+[运行时间：0.023920s] [吞吐率：41.81req/s] [内存消耗：3,260.05kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b',
+  'from' => 'bingbot(at)microsoft.com',
+  'accept-encoding' => '',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000337s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system` [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SELECT * FROM `system` WHERE  `key` = 'base' LIMIT 1 [ RunTime:0.000241s ]
+---------------------------------------------------------------
+
+[2022-02-28T00:26:52+08:00] 40.77.188.161 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/config
+[运行时间：0.063046s] [吞吐率：15.86req/s] [内存消耗：3,410.58kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b',
+  'from' => 'bingbot(at)microsoft.com',
+  'accept-encoding' => '',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000395s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.000666s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.010433s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.026881s ]
+---------------------------------------------------------------
+
+[2022-02-28T00:26:54+08:00] 40.77.188.231 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/hotLottery
+[运行时间：0.023753s] [吞吐率：42.10req/s] [内存消耗：3,332.85kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b',
+  'from' => 'bingbot(at)microsoft.com',
+  'accept-encoding' => '',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000484s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000282s ]
+---------------------------------------------------------------
+
+[2022-02-28T00:42:47+08:00] 192.241.218.81 GET 40.83.103.135/actuator/health
+[运行时间：0.011162s] [吞吐率：89.59req/s] [内存消耗：1,192.04kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T02:49:12+08:00] 147.182.147.111 GET 40.83.103.135/
+[运行时间：0.019882s] [吞吐率：50.30req/s] [内存消耗：2,806.91kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Kryptos Logic Telltale - telltale.kryptoslogic.com',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T02:49:12+08:00] 147.182.147.111 GET 40.83.103.135/admin/login/index/
+[运行时间：0.019274s] [吞吐率：51.88req/s] [内存消耗：2,810.36kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://40.83.103.135/',
+  'accept' => '*/*',
+  'user-agent' => 'Kryptos Logic Telltale - telltale.kryptoslogic.com',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T04:32:21+08:00] 213.32.122.82 GET 40.83.103.135/
+[运行时间：0.020502s] [吞吐率：48.78req/s] [内存消耗：2,806.94kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '40.83.103.135',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T04:32:23+08:00] 213.32.122.82 GET 40.83.103.135/admin/login/index/
+[运行时间：0.034456s] [吞吐率：29.02req/s] [内存消耗：2,810.30kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '40.83.103.135',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T04:54:11+08:00] 192.241.216.202 GET 40.83.103.135/
+[运行时间：0.020617s] [吞吐率：48.50req/s] [内存消耗：2,806.75kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 zgrab/0.x',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T05:06:00+08:00] 209.17.97.18 GET 40.83.103.135:443/
+[运行时间：0.028377s] [吞吐率：35.24req/s] [内存消耗：2,806.75kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)',
+  'host' => '40.83.103.135:443',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T05:06:02+08:00] 209.17.97.18 GET 40.83.103.135:443/admin/login/index/
+[运行时间：0.021241s] [吞吐率：47.08req/s] [内存消耗：2,810.05kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)',
+  'host' => '40.83.103.135:443',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T05:11:59+08:00] 162.142.125.212 GET 40.83.103.135:443/
+[运行时间：0.020022s] [吞吐率：49.94req/s] [内存消耗：2,806.43kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '40.83.103.135:443',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T05:12:00+08:00] 162.142.125.212 GET 40.83.103.135/
+[运行时间：0.019731s] [吞吐率：50.68req/s] [内存消耗：2,806.97kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T05:12:01+08:00] 162.142.125.212 GET 40.83.103.135/admin/login/index/
+[运行时间：0.019247s] [吞吐率：51.96req/s] [内存消耗：2,810.33kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T05:26:18+08:00] 165.232.82.92 GET 40.83.103.135/
+[运行时间：0.025283s] [吞吐率：39.55req/s] [内存消耗：2,807.14kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'accept-charset' => 'utf-8',
+  'user-agent' => 'Mozilla/5.0 (OS/2; Warp 4.5; rv:31.0) Gecko/20100101 Firefox/31.0 SeaMonkey/2.28',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T05:26:18+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/
+[运行时间：0.020884s] [吞吐率：47.88req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://40.83.103.135',
+  'accept-charset' => 'utf-8',
+  'user-agent' => 'Mozilla/5.0 (OS/2; Warp 4.5; rv:31.0) Gecko/20100101 Firefox/31.0 SeaMonkey/2.28',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T06:28:33+08:00] 165.232.82.92 GET 40.83.103.135/sap/admin/public/index.html
+[运行时间：0.010546s] [吞吐率：94.82req/s] [内存消耗：1,192.13kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T06:28:34+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/.git/config
+[运行时间：0.030659s] [吞吐率：32.62req/s] [内存消耗：3,678.01kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'git' => 'config',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000396s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.000572s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/admin/login/index/.git/config' , '{\"git\":\"config\"}' , '165.232.82.92' , NULL , NULL) [ RunTime:0.000239s ]
+---------------------------------------------------------------
+
+[2022-02-28T06:28:34+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/sap/admin/public/index.html
+[运行时间：0.030181s] [吞吐率：33.13req/s] [内存消耗：3,678.45kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sap' => 'admin',
+  'public' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000472s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.000674s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/admin/login/index/sap/admin/public/index.html' , '{\"sap\":\"admin\",\"public\":\"index\"}' , '165.232.82.92' , NULL , NULL) [ RunTime:0.000259s ]
+---------------------------------------------------------------
+
+[2022-02-28T06:28:34+08:00] 165.232.82.92 GET 40.83.103.135/trace
+[运行时间：0.010841s] [吞吐率：92.24req/s] [内存消耗：1,192.03kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T06:28:34+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/trace
+[运行时间：0.020197s] [吞吐率：49.51req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 4.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T07:20:43+08:00] 165.232.82.92 GET 40.83.103.135/monitoring
+[运行时间：0.010919s] [吞吐率：91.58req/s] [内存消耗：1,192.04kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T07:20:43+08:00] 165.232.82.92 GET 40.83.103.135/httptrace
+[运行时间：0.010048s] [吞吐率：99.52req/s] [内存消耗：1,192.04kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T07:20:44+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/monitoring
+[运行时间：0.020763s] [吞吐率：48.16req/s] [内存消耗：2,810.54kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2866.71 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T07:20:45+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/httptrace
+[运行时间：0.020298s] [吞吐率：49.27req/s] [内存消耗：2,810.54kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2656.18 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T07:20:46+08:00] 165.232.82.92 GET 40.83.103.135/..%3B/monitoring
+[运行时间：0.010286s] [吞吐率：97.22req/s] [内存消耗：1,192.04kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T07:20:47+08:00] 165.232.82.92 GET 40.83.103.135/actuator/httptrace
+[运行时间：0.009560s] [吞吐率：104.60req/s] [内存消耗：1,192.05kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T07:20:47+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/..%3B/monitoring
+[运行时间：0.028392s] [吞吐率：35.22req/s] [内存消耗：2,810.55kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.2117.157 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T07:20:48+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/actuator/httptrace
+[运行时间：0.030636s] [吞吐率：32.64req/s] [内存消耗：3,678.08kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'actuator' => 'httptrace',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000527s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.000789s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/admin/login/index/actuator/httptrace' , '{\"actuator\":\"httptrace\"}' , '165.232.82.92' , NULL , NULL) [ RunTime:0.000254s ]
+---------------------------------------------------------------
+
+[2022-02-28T07:42:15+08:00] 165.232.82.92 GET 40.83.103.135/
+[运行时间：0.019831s] [吞吐率：50.43req/s] [内存消耗：2,807.23kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T07:42:16+08:00] 165.232.82.92 GET 40.83.103.135/oozie/
+[运行时间：0.009702s] [吞吐率：103.07req/s] [内存消耗：1,192.03kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T07:42:16+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/oozie/
+[运行时间：0.019634s] [吞吐率：50.93req/s] [内存消耗：2,810.54kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T07:42:16+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/
+[运行时间：0.020402s] [吞吐率：49.01req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T07:42:17+08:00] 165.232.82.92 GET 40.83.103.135/
+[运行时间：0.018358s] [吞吐率：54.47req/s] [内存消耗：2,807.23kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.2117.157 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T07:42:18+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/
+[运行时间：0.019992s] [吞吐率：50.02req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T08:11:05+08:00] 165.232.82.92 GET 40.83.103.135/
+[运行时间：0.028127s] [吞吐率：35.55req/s] [内存消耗：2,807.23kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.2309.372 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T08:11:06+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/
+[运行时间：0.022498s] [吞吐率：44.45req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2866.71 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T08:11:08+08:00] 165.232.82.92 GET 40.83.103.135/nacos/
+[运行时间：0.009719s] [吞吐率：102.89req/s] [内存消耗：1,192.03kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T08:11:09+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/nacos/
+[运行时间：0.020029s] [吞吐率：49.93req/s] [内存消耗：2,810.54kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T08:11:12+08:00] 165.232.82.92 GET 40.83.103.135/
+[运行时间：0.020721s] [吞吐率：48.26req/s] [内存消耗：2,807.23kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T08:11:13+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/
+[运行时间：0.020839s] [吞吐率：47.99req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686 on x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2820.59 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T08:49:09+08:00] 192.241.221.125 GET 40.83.103.135/owa/auth/logon.aspx?url=https%3a%2f%2f1%2fecp%2f
+[运行时间：0.010695s] [吞吐率：93.50req/s] [内存消耗：1,192.10kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T08:51:05+08:00] 192.241.218.199 GET 40.83.103.135/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+[运行时间：0.010123s] [吞吐率：98.78req/s] [内存消耗：1,192.27kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T08:54:04+08:00] 165.232.82.92 GET 40.83.103.135/
+[运行时间：0.026444s] [吞吐率：37.82req/s] [内存消耗：2,807.36kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T08:54:04+08:00] 165.232.82.92 GET 40.83.103.135/
+[运行时间：0.020309s] [吞吐率：49.24req/s] [内存消耗：2,807.23kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T08:54:04+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/
+[运行时间：0.023718s] [吞吐率：42.16req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/44.0.2403.155 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T08:54:04+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/
+[运行时间：0.020913s] [吞吐率：47.82req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.3319.102 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T08:54:05+08:00] 165.232.82.92 GET 40.83.103.135/
+[运行时间：0.029417s] [吞吐率：33.99req/s] [内存消耗：2,807.23kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T08:54:05+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/
+[运行时间：0.018916s] [吞吐率：52.87req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 4.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T08:54:25+08:00] 165.232.82.92 GET 40.83.103.135/ui
+[运行时间：0.009969s] [吞吐率：100.31req/s] [内存消耗：1,192.03kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T08:54:26+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/ui
+[运行时间：0.020146s] [吞吐率：49.64req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1944.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T09:16:13+08:00] 45.146.165.37 GET 40.83.103.135:443/index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21
+[运行时间：0.009764s] [吞吐率：102.42req/s] [内存消耗：1,159.34kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T09:28:43+08:00] 165.232.82.92 GET 40.83.103.135/jmx-console/
+[运行时间：0.011289s] [吞吐率：88.58req/s] [内存消耗：1,192.04kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T09:28:43+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/jmx-console/
+[运行时间：0.019639s] [吞吐率：50.92req/s] [内存消耗：2,810.54kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2762.73 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T09:43:59+08:00] 165.232.82.92 GET 40.83.103.135/_cat/indices?v
+[运行时间：0.010117s] [吞吐率：98.84req/s] [内存消耗：1,192.04kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T09:43:59+08:00] 165.232.82.92 GET 40.83.103.135/login
+[运行时间：0.010424s] [吞吐率：95.93req/s] [内存消耗：1,192.03kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T09:44:00+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/_cat/indices?v
+[运行时间：0.031352s] [吞吐率：31.90req/s] [内存消耗：3,678.20kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2919.83 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'v' => '',
+  '_cat' => 'indices',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000499s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.000692s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/admin/login/index/_cat/indices' , '{\"v\":\"\",\"_cat\":\"indices\"}' , '165.232.82.92' , NULL , NULL) [ RunTime:0.000251s ]
+---------------------------------------------------------------
+
+[2022-02-28T09:44:00+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/login
+[运行时间：0.019883s] [吞吐率：50.29req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T09:44:02+08:00] 165.232.82.92 GET 40.83.103.135/_all/_search
+[运行时间：0.009884s] [吞吐率：101.17req/s] [内存消耗：1,159.28kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T09:44:02+08:00] 165.232.82.92 GET 40.83.103.135/grafana/login
+[运行时间：0.011060s] [吞吐率：90.42req/s] [内存消耗：1,192.04kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T09:44:03+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/_all/_search
+[运行时间：0.030704s] [吞吐率：32.57req/s] [内存消耗：3,678.01kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2866.71 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  '_all' => '_search',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000549s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.000832s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/admin/login/index/_all/_search' , '{\"_all\":\"_search\"}' , '165.232.82.92' , NULL , NULL) [ RunTime:0.000267s ]
+---------------------------------------------------------------
+
+[2022-02-28T09:44:04+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/grafana/login
+[运行时间：0.029645s] [吞吐率：33.73req/s] [内存消耗：3,678.00kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'grafana' => 'login',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000352s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.000757s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/admin/login/index/grafana/login' , '{\"grafana\":\"login\"}' , '165.232.82.92' , NULL , NULL) [ RunTime:0.000282s ]
+---------------------------------------------------------------
+
+[2022-02-28T09:50:07+08:00] 45.146.165.37 GET 40.83.103.135:443/?XDEBUG_SESSION_START=phpstorm
+[运行时间：0.044943s] [吞吐率：22.25req/s] [内存消耗：3,674.52kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '40.83.103.135:443',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => 'phpstorm',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000733s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.000907s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/' , '{\"XDEBUG_SESSION_START\":\"phpstorm\"}' , '45.146.165.37' , NULL , NULL) [ RunTime:0.000307s ]
+---------------------------------------------------------------
+
+[2022-02-28T09:50:17+08:00] 45.146.165.37 GET 40.83.103.135:443/admin/login/index/
+[运行时间：0.021066s] [吞吐率：47.47req/s] [内存消耗：2,810.78kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://40.83.103.135:443/?XDEBUG_SESSION_START=phpstorm',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '40.83.103.135:443',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T10:04:11+08:00] 165.232.82.92 GET 40.83.103.135/jolokia/exec/com.sun.management:type=DiagnosticCommand/vmSystemProperties
+[运行时间：0.013110s] [吞吐率：76.28req/s] [内存消耗：1,192.11kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T10:04:11+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/jolokia/exec/com.sun.management:type=DiagnosticCommand/vmSystemProperties
+[运行时间：0.032986s] [吞吐率：30.32req/s] [内存消耗：3,678.73kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/4E423F',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'jolokia' => 'exec',
+  'DiagnosticCommand' => 'vmSystemProperties',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000352s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.000574s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/admin/login/index/jolokia/exec/com.sun.management:type=DiagnosticCommand/vmSystemProperties' , '{\"jolokia\":\"exec\",\"DiagnosticCommand\":\"vmSystemProperties\"}' , '165.232.82.92' , NULL , NULL) [ RunTime:0.000240s ]
+---------------------------------------------------------------
+
+[2022-02-28T10:33:37+08:00] 165.232.82.92 GET 40.83.103.135/unified-console.html
+[运行时间：0.010194s] [吞吐率：98.10req/s] [内存消耗：1,192.10kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T10:33:38+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/unified-console.html
+[运行时间：0.019417s] [吞吐率：51.50req/s] [内存消耗：2,810.64kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T10:33:50+08:00] 165.232.82.92 GET 40.83.103.135/druid/index.html
+[运行时间：0.012121s] [吞吐率：82.50req/s] [内存消耗：1,192.09kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T10:33:51+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/druid/index.html
+[运行时间：0.034671s] [吞吐率：28.84req/s] [内存消耗：3,678.13kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.4; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2225.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'druid' => 'index',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000415s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.000771s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/admin/login/index/druid/index.html' , '{\"druid\":\"index\"}' , '165.232.82.92' , NULL , NULL) [ RunTime:0.000259s ]
+---------------------------------------------------------------
+
+[2022-02-28T10:33:54+08:00] 165.232.82.92 GET 40.83.103.135/
+[运行时间：0.020519s] [吞吐率：48.74req/s] [内存消耗：2,807.23kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T10:33:55+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/
+[运行时间：0.020503s] [吞吐率：48.77req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.3319.102 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T10:39:51+08:00] 165.232.82.92 GET 40.83.103.135/jkstatus
+[运行时间：0.011272s] [吞吐率：88.72req/s] [内存消耗：1,192.04kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T10:39:53+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/jkstatus
+[运行时间：0.026185s] [吞吐率：38.19req/s] [内存消耗：2,810.54kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T10:39:55+08:00] 165.232.82.92 GET 40.83.103.135/jkstatus;
+[运行时间：0.010284s] [吞吐率：97.24req/s] [内存消耗：1,192.04kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T10:39:56+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/jkstatus;
+[运行时间：0.019884s] [吞吐率：50.29req/s] [内存消耗：2,810.54kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1866.237 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T10:39:58+08:00] 165.232.82.92 GET 40.83.103.135/jkstatus/
+[运行时间：0.009991s] [吞吐率：100.09req/s] [内存消耗：1,192.04kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T10:40:00+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/jkstatus/
+[运行时间：0.022443s] [吞吐率：44.56req/s] [内存消耗：2,810.54kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T10:40:02+08:00] 165.232.82.92 GET 40.83.103.135/jkmanager
+[运行时间：0.013664s] [吞吐率：73.18req/s] [内存消耗：1,192.04kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T10:40:03+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/jkmanager
+[运行时间：0.021016s] [吞吐率：47.58req/s] [内存消耗：2,810.54kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T10:40:06+08:00] 165.232.82.92 GET 40.83.103.135/jkmanager/
+[运行时间：0.009859s] [吞吐率：101.43req/s] [内存消耗：1,192.04kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T10:40:07+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/jkmanager/
+[运行时间：0.022087s] [吞吐率：45.28req/s] [内存消耗：2,810.54kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T10:40:09+08:00] 165.232.82.92 GET 40.83.103.135/jkstatus/..;/jkstatus
+[运行时间：0.012187s] [吞吐率：82.05req/s] [内存消耗：1,159.29kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T10:40:11+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/jkstatus/..;/jkstatus
+[运行时间：0.043164s] [吞吐率：23.17req/s] [内存消耗：3,678.06kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'jkstatus' => '..;',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000464s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.000714s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/admin/login/index/jkstatus/..;/jkstatus' , '{\"jkstatus\":\"..;\"}' , '165.232.82.92' , NULL , NULL) [ RunTime:0.000270s ]
+---------------------------------------------------------------
+
+[2022-02-28T10:41:21+08:00] 165.232.82.92 GET 40.83.103.135/images/json
+[运行时间：0.011288s] [吞吐率：88.59req/s] [内存消耗：1,192.04kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T10:41:21+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/images/json
+[运行时间：0.030559s] [吞吐率：32.72req/s] [内存消耗：3,677.99kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'json',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000369s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.000718s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/admin/login/index/images/json' , '{\"images\":\"json\"}' , '165.232.82.92' , NULL , NULL) [ RunTime:0.000271s ]
+---------------------------------------------------------------
+
+[2022-02-28T10:47:38+08:00] 165.232.82.92 GET 40.83.103.135/
+[运行时间：0.023893s] [吞吐率：41.85req/s] [内存消耗：2,807.23kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T10:47:39+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/
+[运行时间：0.020966s] [吞吐率：47.70req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T10:47:42+08:00] 165.232.82.92 GET 40.83.103.135/signalr/
+[运行时间：0.010720s] [吞吐率：93.28req/s] [内存消耗：1,192.04kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T10:47:42+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/signalr/
+[运行时间：0.024883s] [吞吐率：40.19req/s] [内存消耗：2,810.54kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T10:53:11+08:00] 165.232.82.92 GET 40.83.103.135/beans
+[运行时间：0.010735s] [吞吐率：93.15req/s] [内存消耗：1,192.03kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T10:53:12+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/beans
+[运行时间：0.021166s] [吞吐率：47.25req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T10:53:14+08:00] 165.232.82.92 GET 40.83.103.135/actuator/beans
+[运行时间：0.010529s] [吞吐率：94.98req/s] [内存消耗：1,192.04kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T10:53:15+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/actuator/beans
+[运行时间：0.029895s] [吞吐率：33.45req/s] [内存消耗：3,678.06kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2656.18 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'actuator' => 'beans',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000431s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.000669s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/admin/login/index/actuator/beans' , '{\"actuator\":\"beans\"}' , '165.232.82.92' , NULL , NULL) [ RunTime:0.000271s ]
+---------------------------------------------------------------
+
+[2022-02-28T11:37:38+08:00] 165.232.82.92 GET 40.83.103.135/
+[运行时间：0.020089s] [吞吐率：49.78req/s] [内存消耗：2,807.23kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T11:37:38+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/
+[运行时间：0.019446s] [吞吐率：51.42req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T11:37:42+08:00] 165.232.82.92 GET 40.83.103.135/ui/
+[运行时间：0.011257s] [吞吐率：88.83req/s] [内存消耗：1,192.03kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T11:37:42+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/ui/
+[运行时间：0.019810s] [吞吐率：50.48req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2762.73 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T11:49:21+08:00] 165.232.82.92 GET 40.83.103.135/loggers
+[运行时间：0.014192s] [吞吐率：70.46req/s] [内存消耗：1,192.03kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T11:49:23+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/loggers
+[运行时间：0.020644s] [吞吐率：48.44req/s] [内存消耗：2,810.54kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T11:49:25+08:00] 165.232.82.92 GET 40.83.103.135/actuator/loggers
+[运行时间：0.011166s] [吞吐率：89.56req/s] [内存消耗：1,192.05kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T11:49:26+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/actuator/loggers
+[运行时间：0.029560s] [吞吐率：33.83req/s] [内存消耗：3,678.06kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2762.73 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'actuator' => 'loggers',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000436s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.000829s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/admin/login/index/actuator/loggers' , '{\"actuator\":\"loggers\"}' , '165.232.82.92' , NULL , NULL) [ RunTime:0.000265s ]
+---------------------------------------------------------------
+
+[2022-02-28T12:09:24+08:00] 165.232.82.92 GET 40.83.103.135/
+[运行时间：0.029462s] [吞吐率：33.94req/s] [内存消耗：2,807.23kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/4E423F',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T12:09:24+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/
+[运行时间：0.022332s] [吞吐率：44.78req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T12:28:30+08:00] 165.232.82.92 GET 40.83.103.135/
+[运行时间：0.020455s] [吞吐率：48.89req/s] [内存消耗：2,807.23kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T12:28:32+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/
+[运行时间：0.021043s] [吞吐率：47.52req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 4.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T12:34:13+08:00] 45.146.165.37 POST 40.83.103.135:443/Autodiscover/Autodiscover.xml
+[运行时间：0.011027s] [吞吐率：90.69req/s] [内存消耗：1,191.98kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T12:46:48+08:00] 165.232.82.92 GET 40.83.103.135/
+[运行时间：0.026152s] [吞吐率：38.24req/s] [内存消耗：2,807.23kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2224.3 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T12:46:49+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/
+[运行时间：0.020324s] [吞吐率：49.20req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.3319.102 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T12:49:59+08:00] 45.146.165.37 GET 40.83.103.135:443/_ignition/execute-solution
+[运行时间：0.010260s] [吞吐率：97.47req/s] [内存消耗：1,159.34kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T13:00:12+08:00] 165.232.82.92 GET 40.83.103.135/
+[运行时间：0.053279s] [吞吐率：18.77req/s] [内存消耗：2,807.36kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686 on x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2820.59 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T13:00:12+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/
+[运行时间：0.039765s] [吞吐率：25.15req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2656.18 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T13:00:12+08:00] 165.232.82.92 GET 40.83.103.135/configprops
+[运行时间：0.014089s] [吞吐率：70.98req/s] [内存消耗：1,192.04kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T13:00:13+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/configprops
+[运行时间：0.028801s] [吞吐率：34.72req/s] [内存消耗：2,810.54kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1866.237 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T13:00:15+08:00] 165.232.82.92 GET 40.83.103.135/balancer-manager
+[运行时间：0.013636s] [吞吐率：73.34req/s] [内存消耗：1,192.05kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T13:00:15+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/balancer-manager
+[运行时间：0.067166s] [吞吐率：14.89req/s] [内存消耗：2,810.55kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T13:00:16+08:00] 165.232.82.92 GET 40.83.103.135/actuator/configprops
+[运行时间：0.014570s] [吞吐率：68.63req/s] [内存消耗：1,192.05kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T13:00:16+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/actuator/configprops
+[运行时间：0.043325s] [吞吐率：23.08req/s] [内存消耗：3,678.09kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2762.73 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'actuator' => 'configprops',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000376s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.000974s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/admin/login/index/actuator/configprops' , '{\"actuator\":\"configprops\"}' , '165.232.82.92' , NULL , NULL) [ RunTime:0.000272s ]
+---------------------------------------------------------------
+
+[2022-02-28T13:38:01+08:00] 165.232.82.92 GET 40.83.103.135/_profiler/empty/search/results?limit=10
+[运行时间：0.011702s] [吞吐率：85.46req/s] [内存消耗：1,192.05kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T13:38:01+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/_profiler/empty/search/results?limit=10
+[运行时间：0.029403s] [吞吐率：34.01req/s] [内存消耗：3,678.53kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'limit' => '10',
+  '_profiler' => 'empty',
+  'search' => 'results',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000533s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.000775s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/admin/login/index/_profiler/empty/search/results' , '{\"limit\":\"10\",\"_profiler\":\"empty\",\"search\":\"results\"}' , '165.232.82.92' , NULL , NULL) [ RunTime:0.000317s ]
+---------------------------------------------------------------
+
+[2022-02-28T13:41:48+08:00] 165.232.82.92 GET 40.83.103.135/
+[运行时间：0.020524s] [吞吐率：48.72req/s] [内存消耗：2,807.23kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.2117.157 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T13:41:51+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/
+[运行时间：0.019482s] [吞吐率：51.33req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T13:48:21+08:00] 165.232.82.92 GET 40.83.103.135/
+[运行时间：0.018469s] [吞吐率：54.15req/s] [内存消耗：2,807.23kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1866.237 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T13:48:23+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/
+[运行时间：0.028371s] [吞吐率：35.25req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T13:48:30+08:00] 165.232.82.92 GET 40.83.103.135/admin/sidekiq
+[运行时间：0.013109s] [吞吐率：76.28req/s] [内存消耗：1,678.37kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2225.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T13:48:32+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/admin/sidekiq
+[运行时间：0.030826s] [吞吐率：32.44req/s] [内存消耗：3,678.02kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.4; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2225.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'admin' => 'sidekiq',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000437s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.000688s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/admin/login/index/admin/sidekiq' , '{\"admin\":\"sidekiq\"}' , '165.232.82.92' , NULL , NULL) [ RunTime:0.000308s ]
+---------------------------------------------------------------
+
+[2022-02-28T13:48:33+08:00] 165.232.82.92 GET 40.83.103.135/dev/sidekiq
+[运行时间：0.010064s] [吞吐率：99.36req/s] [内存消耗：1,192.04kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T13:48:35+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/dev/sidekiq
+[运行时间：0.030311s] [吞吐率：32.99req/s] [内存消耗：3,678.01kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'dev' => 'sidekiq',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000404s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.000735s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/admin/login/index/dev/sidekiq' , '{\"dev\":\"sidekiq\"}' , '165.232.82.92' , NULL , NULL) [ RunTime:0.000242s ]
+---------------------------------------------------------------
+
+[2022-02-28T13:48:37+08:00] 165.232.82.92 GET 40.83.103.135/sidekiq
+[运行时间：0.011142s] [吞吐率：89.75req/s] [内存消耗：1,192.03kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T13:48:39+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/sidekiq
+[运行时间：0.020615s] [吞吐率：48.51req/s] [内存消耗：2,810.54kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.4; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2225.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T14:07:11+08:00] 165.232.82.92 GET 40.83.103.135/prometheus
+[运行时间：0.009765s] [吞吐率：102.40req/s] [内存消耗：1,192.04kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T14:07:12+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/prometheus
+[运行时间：0.026379s] [吞吐率：37.91req/s] [内存消耗：2,810.54kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T14:07:15+08:00] 165.232.82.92 GET 40.83.103.135/api/v1/prometheus
+[运行时间：0.012472s] [吞吐率：80.18req/s] [内存消耗：1,678.41kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T14:07:15+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/api/v1/prometheus
+[运行时间：0.031770s] [吞吐率：31.48req/s] [内存消耗：3,678.08kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.2309.372 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'api' => 'v1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000539s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.000753s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/admin/login/index/api/v1/prometheus' , '{\"api\":\"v1\"}' , '165.232.82.92' , NULL , NULL) [ RunTime:0.000256s ]
+---------------------------------------------------------------
+
+[2022-02-28T14:07:19+08:00] 165.232.82.92 GET 40.83.103.135/actuator/prometheus
+[运行时间：0.010275s] [吞吐率：97.32req/s] [内存消耗：1,192.05kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T14:07:19+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/actuator/prometheus
+[运行时间：0.028577s] [吞吐率：34.99req/s] [内存消耗：3,678.08kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/44.0.2403.155 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'actuator' => 'prometheus',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000413s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.000581s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/admin/login/index/actuator/prometheus' , '{\"actuator\":\"prometheus\"}' , '165.232.82.92' , NULL , NULL) [ RunTime:0.000232s ]
+---------------------------------------------------------------
+
+[2022-02-28T14:07:22+08:00] 165.232.82.92 GET 40.83.103.135/;/actuator/prometheus
+[运行时间：0.010107s] [吞吐率：98.94req/s] [内存消耗：1,192.05kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T14:07:23+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/;/actuator/prometheus
+[运行时间：0.032541s] [吞吐率：30.73req/s] [内存消耗：3,678.09kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'actuator' => 'prometheus',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000559s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.000612s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/admin/login/index/;/actuator/prometheus' , '{\"actuator\":\"prometheus\"}' , '165.232.82.92' , NULL , NULL) [ RunTime:0.000252s ]
+---------------------------------------------------------------
+
+[2022-02-28T14:11:17+08:00] 165.232.82.92 GET 40.83.103.135/pods
+[运行时间：0.010435s] [吞吐率：95.83req/s] [内存消耗：1,192.03kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T14:11:18+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/pods
+[运行时间：0.027425s] [吞吐率：36.46req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T14:11:21+08:00] 165.232.82.92 GET 40.83.103.135/api/v1/pods
+[运行时间：0.014464s] [吞吐率：69.14req/s] [内存消耗：1,678.39kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T14:11:21+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/api/v1/pods
+[运行时间：0.031059s] [吞吐率：32.20req/s] [内存消耗：3,678.03kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.3319.102 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'api' => 'v1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000502s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.000614s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/admin/login/index/api/v1/pods' , '{\"api\":\"v1\"}' , '165.232.82.92' , NULL , NULL) [ RunTime:0.000256s ]
+---------------------------------------------------------------
+
+[2022-02-28T14:11:30+08:00] 165.232.82.92 GET 40.83.103.135/api/v1/pods
+[运行时间：0.012647s] [吞吐率：79.07req/s] [内存消耗：1,678.39kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.4; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2225.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T14:11:30+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/api/v1/pods
+[运行时间：0.042396s] [吞吐率：23.59req/s] [内存消耗：3,678.03kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'api' => 'v1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000426s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.000787s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/admin/login/index/api/v1/pods' , '{\"api\":\"v1\"}' , '165.232.82.92' , NULL , NULL) [ RunTime:0.000309s ]
+---------------------------------------------------------------
+
+[2022-02-28T14:29:28+08:00] 165.232.82.92 GET 40.83.103.135/mappings
+[运行时间：0.010898s] [吞吐率：91.76req/s] [内存消耗：1,192.04kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T14:29:28+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/mappings
+[运行时间：0.027481s] [吞吐率：36.39req/s] [内存消耗：2,810.54kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1944.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T14:29:32+08:00] 165.232.82.92 GET 40.83.103.135/actuator/mappings
+[运行时间：0.009840s] [吞吐率：101.63req/s] [内存消耗：1,192.05kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T14:29:32+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/actuator/mappings
+[运行时间：0.046489s] [吞吐率：21.51req/s] [内存消耗：3,678.07kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'actuator' => 'mappings',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000732s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.000651s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/admin/login/index/actuator/mappings' , '{\"actuator\":\"mappings\"}' , '165.232.82.92' , NULL , NULL) [ RunTime:0.000799s ]
+---------------------------------------------------------------
+
+[2022-02-28T14:30:24+08:00] 45.146.165.37 GET 40.83.103.135:443/
+[运行时间：0.058482s] [吞吐率：17.10req/s] [内存消耗：2,807.24kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '40.83.103.135:443',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T14:30:26+08:00] 45.146.165.37 GET 40.83.103.135:443/admin/login/index/
+[运行时间：0.028372s] [吞吐率：35.25req/s] [内存消耗：2,810.63kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://40.83.103.135:443',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '40.83.103.135:443',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T14:36:07+08:00] 165.232.82.92 GET 40.83.103.135/
+[运行时间：0.028034s] [吞吐率：35.67req/s] [内存消耗：2,807.23kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T14:36:07+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/
+[运行时间：0.020207s] [吞吐率：49.49req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T14:42:15+08:00] 165.232.82.92 GET 40.83.103.135/graph
+[运行时间：0.009702s] [吞吐率：103.07req/s] [内存消耗：1,192.03kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T14:42:16+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/graph
+[运行时间：0.022039s] [吞吐率：45.37req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.3319.102 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T14:45:23+08:00] 165.232.82.92 GET 40.83.103.135/adminer/
+[运行时间：0.014753s] [吞吐率：67.78req/s] [内存消耗：1,192.04kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T14:45:25+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/adminer/
+[运行时间：0.027724s] [吞吐率：36.07req/s] [内存消耗：2,810.54kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.1 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T14:45:49+08:00] 165.232.82.92 GET 40.83.103.135/db/
+[运行时间：0.013725s] [吞吐率：72.86req/s] [内存消耗：1,192.03kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T14:45:50+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/db/
+[运行时间：0.019558s] [吞吐率：51.13req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2919.83 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T15:06:33+08:00] 127.0.0.1 GET 127.0.0.1/server-status
+[运行时间：0.009750s] [吞吐率：102.57req/s] [内存消耗：1,192.04kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T15:06:33+08:00] 127.0.0.1 GET 127.0.0.1/admin/login/index/server-status
+[运行时间：0.020151s] [吞吐率：49.63req/s] [内存消耗：2,813.05kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'x-true-ip' => '127.0.0.1',
+  'x-remote-ip' => '127.0.0.1',
+  'x-remote-addr' => '127.0.0.1',
+  'x-originating-ip' => '127.0.0.1',
+  'x-host' => '127.0.0.1',
+  'x-forwarded-host' => '127.0.0.1',
+  'x-forwarded-for-ip' => '127.0.0.1',
+  'x-forwarded-for' => '127.0.0.1',
+  'x-forwarded-by' => '127.0.0.1',
+  'x-client-ip' => '127.0.0.1',
+  'forwarded' => '127.0.0.1',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T15:08:47+08:00] 165.232.82.92 GET 40.83.103.135/solr/
+[运行时间：0.009556s] [吞吐率：104.65req/s] [内存消耗：1,192.03kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T15:08:48+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/solr/
+[运行时间：0.019811s] [吞吐率：50.48req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T15:08:51+08:00] 165.232.82.92 GET 40.83.103.135/
+[运行时间：0.019101s] [吞吐率：52.35req/s] [内存消耗：2,807.36kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.1 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T15:08:52+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/
+[运行时间：0.021286s] [吞吐率：46.98req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T15:08:54+08:00] 8.142.40.101 GET 40.83.103.135/sitemap.xml
+[运行时间：0.009715s] [吞吐率：102.93req/s] [内存消耗：1,192.08kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T15:09:03+08:00] 8.142.40.101 GET 40.83.103.135/
+[运行时间：0.018791s] [吞吐率：53.22req/s] [内存消耗：2,807.86kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'host' => '40.83.103.135',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T15:09:13+08:00] 8.142.40.101 GET 40.83.103.135/sitemap.xml
+[运行时间：0.011061s] [吞吐率：90.41req/s] [内存消耗：1,192.08kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T15:09:56+08:00] 8.142.40.101 GET 40.83.103.135/admin/login/index/
+[运行时间：0.028365s] [吞吐率：35.25req/s] [内存消耗：2,811.51kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=a5krii74a3tmdfijivrthr455j',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'host' => '40.83.103.135',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T15:09:58+08:00] 165.232.82.92 GET 40.83.103.135/
+[运行时间：0.018319s] [吞吐率：54.59req/s] [内存消耗：2,807.23kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 4.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T15:09:59+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/
+[运行时间：0.019793s] [吞吐率：50.52req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T15:10:03+08:00] 8.142.40.101 GET 40.83.103.135/sitemap.xml
+[运行时间：0.019458s] [吞吐率：51.39req/s] [内存消耗：1,192.08kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T15:18:08+08:00] 109.237.103.118 GET 40.83.103.135/.env
+[运行时间：0.019986s] [吞吐率：50.04req/s] [内存消耗：2,807.99kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T15:41:38+08:00] 165.232.82.92 GET 40.83.103.135/mini-profiler-resources/results
+[运行时间：0.009238s] [吞吐率：108.25req/s] [内存消耗：1,192.05kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T15:41:38+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/mini-profiler-resources/results
+[运行时间：0.029223s] [吞吐率：34.22req/s] [内存消耗：3,678.09kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'resources' => 'results',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000342s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.000598s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/admin/login/index/mini-profiler-resources/results' , '{\"resources\":\"results\"}' , '165.232.82.92' , NULL , NULL) [ RunTime:0.000229s ]
+---------------------------------------------------------------
+
+[2022-02-28T15:41:41+08:00] 165.232.82.92 GET 40.83.103.135/mini-profiler-resources/results-list
+[运行时间：0.009667s] [吞吐率：103.45req/s] [内存消耗：1,159.30kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T15:41:41+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/mini-profiler-resources/results-list
+[运行时间：0.028421s] [吞吐率：35.19req/s] [内存消耗：3,678.16kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'resources' => 'results-list',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000395s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.000728s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/admin/login/index/mini-profiler-resources/results-list' , '{\"resources\":\"results-list\"}' , '165.232.82.92' , NULL , NULL) [ RunTime:0.000268s ]
+---------------------------------------------------------------
+
+[2022-02-28T15:54:39+08:00] 45.146.165.37 GET 40.83.103.135:443/
+[运行时间：0.019692s] [吞吐率：50.78req/s] [内存消耗：2,807.20kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '40.83.103.135:443',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T15:54:44+08:00] 45.146.165.37 GET 40.83.103.135:443/admin/login/index/
+[运行时间：0.020372s] [吞吐率：49.09req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://40.83.103.135:443/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '40.83.103.135:443',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T15:58:45+08:00] 64.62.197.212 GET 40.83.103.135/
+[运行时间：0.019958s] [吞吐率：50.11req/s] [内存消耗：2,806.39kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T16:00:35+08:00] 165.232.82.92 GET 40.83.103.135/heapdump
+[运行时间：0.013724s] [吞吐率：72.87req/s] [内存消耗：1,192.04kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T16:00:35+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/heapdump
+[运行时间：0.033691s] [吞吐率：29.68req/s] [内存消耗：2,810.54kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T16:00:38+08:00] 165.232.82.92 GET 40.83.103.135/actuator/heapdump
+[运行时间：0.018002s] [吞吐率：55.55req/s] [内存消耗：1,192.05kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T16:00:39+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/actuator/heapdump
+[运行时间：0.576863s] [吞吐率：1.73req/s] [内存消耗：3,678.05kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.2117.157 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'actuator' => 'heapdump',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006212s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.002139s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/admin/login/index/actuator/heapdump' , '{\"actuator\":\"heapdump\"}' , '165.232.82.92' , NULL , NULL) [ RunTime:0.000275s ]
+---------------------------------------------------------------
+
+[2022-02-28T17:11:13+08:00] 111.13.63.97 GET 40.83.103.135/
+[运行时间：0.019092s] [吞吐率：52.38req/s] [内存消耗：2,807.13kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36 OPR/75.0.3969.282 (Edition Yx GX)',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T17:12:16+08:00] 165.232.82.92 GET 40.83.103.135/haproxy?stats
+[运行时间：0.010020s] [吞吐率：99.80req/s] [内存消耗：1,192.03kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T17:12:18+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/haproxy?stats
+[运行时间：0.079645s] [吞吐率：12.56req/s] [内存消耗：3,677.55kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2762.73 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'stats' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000556s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.000737s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/admin/login/index/haproxy' , '{\"stats\":\"\"}' , '165.232.82.92' , NULL , NULL) [ RunTime:0.000270s ]
+---------------------------------------------------------------
+
+[2022-02-28T17:12:24+08:00] 165.232.82.92 GET 40.83.103.135/stats
+[运行时间：0.009497s] [吞吐率：105.29req/s] [内存消耗：1,192.03kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T17:12:25+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/stats
+[运行时间：0.028526s] [吞吐率：35.06req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2225.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T17:15:10+08:00] 165.232.82.92 GET 40.83.103.135/solr/admin/cores?wt=json
+[运行时间：0.021086s] [吞吐率：47.42req/s] [内存消耗：1,192.05kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T17:15:11+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/solr/admin/cores?wt=json
+[运行时间：0.169693s] [吞吐率：5.89req/s] [内存消耗：3,678.11kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'accept-language' => 'en',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.3319.102 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'wt' => 'json',
+  'solr' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000362s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.000558s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/admin/login/index/solr/admin/cores' , '{\"wt\":\"json\",\"solr\":\"admin\"}' , '165.232.82.92' , NULL , NULL) [ RunTime:0.000260s ]
+---------------------------------------------------------------
+
+[2022-02-28T17:18:34+08:00] 66.249.79.252 GET www.mihuantuanduidingjijishu65.com/
+[运行时间：0.018657s] [吞吐率：53.60req/s] [内存消耗：2,808.75kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'if-modified-since' => 'Wed, 23 Feb 2022 06:57:19 GMT',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/signed-exchange;v=b3,application/xml;q=0.9,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'amp-cache-transform' => 'google;v="1..8"',
+  'host' => 'www.mihuantuanduidingjijishu65.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T17:18:35+08:00] 66.249.79.254 GET www.mihuantuanduidingjijishu65.com/admin/login/index/
+[运行时间：0.018883s] [吞吐率：52.96req/s] [内存消耗：2,811.91kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/signed-exchange;v=b3,application/xml;q=0.9,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=hjp4avgvi8d3bpkhbe10b8qjhp',
+  'amp-cache-transform' => 'google;v="1..8"',
+  'host' => 'www.mihuantuanduidingjijishu65.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T17:33:09+08:00] 165.232.82.92 GET 40.83.103.135/
+[运行时间：0.019564s] [吞吐率：51.11req/s] [内存消耗：2,807.23kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T17:33:09+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/
+[运行时间：0.018715s] [吞吐率：53.43req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2225.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T17:44:09+08:00] 92.98.135.232 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/base
+[运行时间：0.023358s] [吞吐率：42.81req/s] [内存消耗：3,261.59kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi53.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi53.cc',
+  'accept' => '*/*',
+  'sec-ch-ua-platform' => '"Windows"',
+  'token' => 'Mjg3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000415s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system` [ RunTime:0.000940s ]
+[ sql ] [ SQL ] SELECT * FROM `system` WHERE  `key` = 'base' LIMIT 1 [ RunTime:0.000263s ]
+---------------------------------------------------------------
+
+[2022-02-28T17:44:09+08:00] 92.98.135.232 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/config
+[运行时间：0.084797s] [吞吐率：11.79req/s] [内存消耗：3,412.11kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi53.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi53.cc',
+  'accept' => '*/*',
+  'sec-ch-ua-platform' => '"Windows"',
+  'token' => 'Mjg3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000431s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.000670s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000900s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000717s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.010525s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.041040s ]
+---------------------------------------------------------------
+
+[2022-02-28T17:44:10+08:00] 92.98.135.232 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/hotLottery
+[运行时间：0.026990s] [吞吐率：37.05req/s] [内存消耗：3,334.38kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi53.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi53.cc',
+  'accept' => '*/*',
+  'sec-ch-ua-platform' => '"Windows"',
+  'token' => 'Mjg3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000585s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000729s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000288s ]
+---------------------------------------------------------------
+
+[2022-02-28T18:18:33+08:00] 66.249.79.250 GET www.mihuantuanduidingjijishu65.com/
+[运行时间：0.026883s] [吞吐率：37.20req/s] [内存消耗：2,807.59kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/signed-exchange;v=b3,application/xml;q=0.9,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'www.mihuantuanduidingjijishu65.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T18:18:34+08:00] 66.249.79.254 GET www.mihuantuanduidingjijishu65.com/admin/login/index/
+[运行时间：0.025064s] [吞吐率：39.90req/s] [内存消耗：2,811.49kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/signed-exchange;v=b3,application/xml;q=0.9,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=huuj4g7o2u5aho7mpjfjl3inbm',
+  'host' => 'www.mihuantuanduidingjijishu65.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T18:32:46+08:00] 165.232.82.92 GET 40.83.103.135/console
+[运行时间：0.009353s] [吞吐率：106.92req/s] [内存消耗：1,192.03kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T18:32:46+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/console
+[运行时间：0.020474s] [吞吐率：48.84req/s] [内存消耗：2,810.54kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 4.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T19:03:33+08:00] 66.249.79.252 GET www.mihuantuanduidingjijishu65.com/
+[运行时间：0.019005s] [吞吐率：52.62req/s] [内存消耗：2,808.33kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'if-modified-since' => 'Wed, 23 Feb 2022 07:57:18 GMT',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/signed-exchange;v=b3,application/xml;q=0.9,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'www.mihuantuanduidingjijishu65.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T19:03:34+08:00] 66.249.79.254 GET www.mihuantuanduidingjijishu65.com/admin/login/index/
+[运行时间：0.026569s] [吞吐率：37.64req/s] [内存消耗：2,811.49kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/signed-exchange;v=b3,application/xml;q=0.9,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=sgs1lq3h1nvq8sfgkboc7h4hum',
+  'host' => 'www.mihuantuanduidingjijishu65.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T19:09:01+08:00] 165.232.82.92 GET 40.83.103.135/admin/
+[运行时间：0.020237s] [吞吐率：49.41req/s] [内存消耗：2,808.03kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T19:09:01+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/admin/
+[运行时间：0.019931s] [吞吐率：50.17req/s] [内存消耗：2,810.54kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T19:34:49+08:00] 165.232.82.92 GET 40.83.103.135/
+[运行时间：0.026121s] [吞吐率：38.28req/s] [内存消耗：2,807.36kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T19:34:50+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/
+[运行时间：0.020368s] [吞吐率：49.10req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2656.18 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T19:34:50+08:00] 165.232.82.92 GET 40.83.103.135/
+[运行时间：0.019956s] [吞吐率：50.11req/s] [内存消耗：2,807.23kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T19:34:50+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/
+[运行时间：0.027932s] [吞吐率：35.80req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2866.71 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T19:34:51+08:00] 165.232.82.92 GET 40.83.103.135/dashboard/
+[运行时间：0.009981s] [吞吐率：100.19req/s] [内存消耗：1,192.04kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T19:34:51+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/dashboard/
+[运行时间：0.019693s] [吞吐率：50.78req/s] [内存消耗：2,810.54kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T19:34:51+08:00] 165.232.82.92 GET 40.83.103.135/cmak/../
+[运行时间：0.019704s] [吞吐率：50.75req/s] [内存消耗：2,807.23kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T19:34:52+08:00] 165.232.82.92 GET 40.83.103.135/admin/login/index/cmak/../
+[运行时间：0.019317s] [吞吐率：51.77req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux i686 on x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2820.59 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T19:35:42+08:00] 162.142.125.211 GET 40.83.103.135:443/
+[运行时间：0.021399s] [吞吐率：46.73req/s] [内存消耗：2,806.43kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '40.83.103.135:443',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T19:35:43+08:00] 162.142.125.211 GET 40.83.103.135/
+[运行时间：0.019572s] [吞吐率：51.09req/s] [内存消耗：2,806.97kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T19:35:44+08:00] 162.142.125.211 GET 40.83.103.135/admin/login/index/
+[运行时间：0.019989s] [吞吐率：50.03req/s] [内存消耗：2,810.33kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T20:03:33+08:00] 66.249.79.250 GET www.mihuantuanduidingjijishu65.com/
+[运行时间：0.019697s] [吞吐率：50.77req/s] [内存消耗：2,807.59kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/signed-exchange;v=b3,application/xml;q=0.9,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'www.mihuantuanduidingjijishu65.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T20:03:34+08:00] 66.249.79.250 GET www.mihuantuanduidingjijishu65.com/admin/login/index/
+[运行时间：0.020454s] [吞吐率：48.89req/s] [内存消耗：2,811.49kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/signed-exchange;v=b3,application/xml;q=0.9,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=7h0doh5fj97vmsa7oadii371g9',
+  'host' => 'www.mihuantuanduidingjijishu65.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T21:05:06+08:00] 43.231.0.138 GET /
+[运行时间：0.019331s] [吞吐率：51.73req/s] [内存消耗：2,806.18kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T21:07:41+08:00] 43.231.0.138 GET 40.83.103.135/nmaplowercheck1646053660
+[运行时间：0.009076s] [吞吐率：110.18req/s] [内存消耗：1,192.05kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T21:07:41+08:00] 43.231.0.138 GET 40.83.103.135/evox/about
+[运行时间：0.010639s] [吞吐率：93.99req/s] [内存消耗：1,192.04kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T21:07:41+08:00] 43.231.0.138 GET 40.83.103.135/HNAP1
+[运行时间：0.009470s] [吞吐率：105.60req/s] [内存消耗：1,192.03kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T21:07:42+08:00] 43.231.0.138 POST 40.83.103.135/sdk
+[运行时间：0.009890s] [吞吐率：101.11req/s] [内存消耗：1,191.96kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T21:08:00+08:00] 43.231.0.138 GET /
+[运行时间：0.018990s] [吞吐率：52.66req/s] [内存消耗：2,806.18kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T21:08:00+08:00] 43.231.0.138 GET 40.83.103.135/
+[运行时间：0.020322s] [吞吐率：49.21req/s] [内存消耗：2,806.39kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T21:08:20+08:00] 43.231.0.138 GET 40.83.103.135/
+[运行时间：0.027320s] [吞吐率：36.60req/s] [内存消耗：2,807.09kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T21:08:20+08:00] 43.231.0.138 GET 40.83.103.135/admin/login/index/
+[运行时间：0.018888s] [吞吐率：52.94req/s] [内存消耗：2,810.65kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://40.83.103.135/',
+  'cookie' => 'PHPSESSID=qg7m86erob5vmk1cku4mcckrr5',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T21:53:38+08:00] 138.99.216.224 GET 40.83.103.135/remote/fgt_lang?lang=/../../../..//////////dev/cmdb/sslvpn_websession
+[运行时间：0.010386s] [吞吐率：96.28req/s] [内存消耗：1,192.04kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-28T22:11:50+08:00] 183.136.225.14 GET 40.83.103.135:443/
+[运行时间：0.020806s] [吞吐率：48.06req/s] [内存消耗：2,807.01kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'host' => '40.83.103.135:443',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T22:12:47+08:00] 183.136.225.14 GET 40.83.103.135:443/admin/login/index/
+[运行时间：0.028229s] [吞吐率：35.42req/s] [内存消耗：2,810.37kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'host' => '40.83.103.135:443',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T22:13:24+08:00] 183.136.225.14 GET 40.83.103.135:443/
+[运行时间：0.018934s] [吞吐率：52.82req/s] [内存消耗：2,807.23kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 QIHU 360SE',
+  'host' => '40.83.103.135:443',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T22:13:36+08:00] 183.136.225.14 GET 40.83.103.135:443/admin/login/index/
+[运行时间：0.023907s] [吞吐率：41.83req/s] [内存消耗：2,810.81kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://40.83.103.135:443',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 QIHU 360SE',
+  'host' => '40.83.103.135:443',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-28T22:28:09+08:00] 193.56.29.26 GET 40.83.103.135/.env
+[运行时间：0.022486s] [吞吐率：44.47req/s] [内存消耗：2,808.14kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; HM NOTE 1W Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.0.5.850 U3/0.8.0 Mobile Safari/534.30',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T22:28:10+08:00] 193.56.29.26 POST 40.83.103.135/
+[运行时间：0.028684s] [吞吐率：34.86req/s] [内存消耗：3,674.21kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '20',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; HM NOTE 1W Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.0.5.850 U3/0.8.0 Mobile Safari/534.30',
+  'host' => '40.83.103.135',
+)
+[ info ] [ PARAM ] array (
+  '0x' => 
+  array (
+    0 => 'androxgh0st',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000548s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.000670s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/' , '{\"0x\":[\"androxgh0st\"]}' , '193.56.29.26' , NULL , NULL) [ RunTime:0.000255s ]
+---------------------------------------------------------------
+
+[2022-02-28T23:16:45+08:00] 130.211.54.158 GET 40.83.103.135/
+[运行时间：0.019014s] [吞吐率：52.59req/s] [内存消耗：2,807.91kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-datadog-sampling-priority' => '1',
+  'x-datadog-parent-id' => '13142884124443429442',
+  'x-datadog-trace-id' => '9806472772614638042',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'python-requests/2.27.1',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T23:53:20+08:00] 93.158.161.53 GET www.mihuantuanduidingjijishu65.com/
+[运行时间：0.018324s] [吞吐率：54.57req/s] [内存消耗：2,807.22kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'from' => 'support@search.yandex.ru',
+  'user-agent' => 'Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.mihuantuanduidingjijishu65.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-28T23:53:28+08:00] 77.88.5.165 GET www.mihuantuanduidingjijishu65.com/admin/login/index/
+[运行时间：0.020585s] [吞吐率：48.58req/s] [内存消耗：2,810.52kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'from' => 'support@search.yandex.ru',
+  'user-agent' => 'Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)',
+  'connection' => 'Keep-Alive',
+  'host' => 'www.mihuantuanduidingjijishu65.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]

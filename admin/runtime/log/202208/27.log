@@ -1,0 +1,781 @@
+---------------------------------------------------------------
+
+[2022-08-27T05:02:03+08:00] 42.157.129.131 GET htkj.chatimdajian.com/
+[运行时间：0.482026s] [吞吐率：2.07req/s] [内存消耗：778.37kb] [文件加载：90]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-08-27T06:32:48+08:00] 58.152.77.182 GET htkj.chatimdajian.com/api/system/config
+[运行时间：0.941476s] [吞吐率：1.06req/s] [内存消耗：960.41kb] [文件加载：82]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.63',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004133s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.013454s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.001291s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.011424s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.004596s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.001491s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.375057s ]
+---------------------------------------------------------------
+
+[2022-08-27T06:32:48+08:00] 58.152.77.182 GET htkj.chatimdajian.com/api/system/base
+[运行时间：0.355558s] [吞吐率：2.81req/s] [内存消耗：538.33kb] [文件加载：81]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.63',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002820s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system` [ RunTime:0.005595s ]
+[ sql ] [ SQL ] SELECT * FROM `system` WHERE  `key` = 'base' LIMIT 1 [ RunTime:0.001634s ]
+---------------------------------------------------------------
+
+[2022-08-27T06:32:49+08:00] 58.152.77.182 GET htkj.chatimdajian.com/api/Lottery/hotLottery
+[运行时间：0.237226s] [吞吐率：4.22req/s] [内存消耗：546.64kb] [文件加载：83]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.63',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000946s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.004608s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000500s ]
+---------------------------------------------------------------
+
+[2022-08-27T06:32:50+08:00] 58.152.77.182 GET htkj.chatimdajian.com/api/system/config
+[运行时间：0.329018s] [吞吐率：3.04req/s] [内存消耗：624.40kb] [文件加载：84]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.63',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001296s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.004166s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000513s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.003408s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.003514s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.060264s ]
+---------------------------------------------------------------
+
+[2022-08-27T06:32:51+08:00] 58.152.77.182 GET htkj.chatimdajian.com/api/Lottery/hotLottery
+[运行时间：0.281213s] [吞吐率：3.56req/s] [内存消耗：545.56kb] [文件加载：83]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.63',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001262s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.004464s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000562s ]
+---------------------------------------------------------------
+
+[2022-08-27T06:33:02+08:00] 175.100.115.150 GET htkj.chatimdajian.com/api/system/base
+[运行时间：0.439838s] [吞吐率：2.27req/s] [内存消耗：538.09kb] [文件加载：81]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001469s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system` [ RunTime:0.005370s ]
+[ sql ] [ SQL ] SELECT * FROM `system` WHERE  `key` = 'base' LIMIT 1 [ RunTime:0.000628s ]
+---------------------------------------------------------------
+
+[2022-08-27T06:33:02+08:00] 175.100.115.150 GET htkj.chatimdajian.com/api/system/config
+[运行时间：0.414114s] [吞吐率：2.41req/s] [内存消耗：623.86kb] [文件加载：84]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001212s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.003456s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.005802s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.068696s ]
+---------------------------------------------------------------
+
+[2022-08-27T06:33:03+08:00] 175.100.115.150 GET htkj.chatimdajian.com/api/Lottery/hotLottery
+[运行时间：0.270254s] [吞吐率：3.70req/s] [内存消耗：545.27kb] [文件加载：83]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001304s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.003884s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000524s ]
+---------------------------------------------------------------
+
+[2022-08-27T06:33:20+08:00] 175.100.115.150 GET htkj.chatimdajian.com/api/system/base
+[运行时间：0.278424s] [吞吐率：3.59req/s] [内存消耗：538.06kb] [文件加载：81]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002151s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system` [ RunTime:0.006146s ]
+[ sql ] [ SQL ] SELECT * FROM `system` WHERE  `key` = 'base' LIMIT 1 [ RunTime:0.000746s ]
+---------------------------------------------------------------
+
+[2022-08-27T06:34:17+08:00] 175.100.115.150 GET htkj.chatimdajian.com/api/member/doLogin?username=ceshi888&password=123456
+[运行时间：0.308679s] [吞吐率：3.24req/s] [内存消耗：544.90kb] [文件加载：81]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.162 Mobile Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'ceshi888',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001699s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.010510s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `username` = 'ceshi888' LIMIT 1 [ RunTime:0.010239s ]
+---------------------------------------------------------------
+
+[2022-08-27T17:22:17+08:00] 60.249.39.199 GET htkj.chatimdajian.com/api/system/base
+[运行时间：0.858267s] [吞吐率：1.17req/s] [内存消耗：538.33kb] [文件加载：81]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022318s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system` [ RunTime:0.058693s ]
+[ sql ] [ SQL ] SELECT * FROM `system` WHERE  `key` = 'base' LIMIT 1 [ RunTime:0.005971s ]
+---------------------------------------------------------------
+
+[2022-08-27T17:22:17+08:00] 60.249.39.199 GET htkj.chatimdajian.com/api/system/config
+[运行时间：1.079718s] [吞吐率：0.93req/s] [内存消耗：623.90kb] [文件加载：84]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022350s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.057975s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.003774s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.009882s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000859s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.007186s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.000863s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.211657s ]
+---------------------------------------------------------------
+
+[2022-08-27T17:22:17+08:00] 60.249.39.199 GET htkj.chatimdajian.com/api/Lottery/hotLottery
+[运行时间：0.277942s] [吞吐率：3.60req/s] [内存消耗：545.56kb] [文件加载：83]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002812s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.007827s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000647s ]
+---------------------------------------------------------------
+
+[2022-08-27T17:22:22+08:00] 60.249.39.199 GET htkj.chatimdajian.com/api/system/base
+[运行时间：0.261768s] [吞吐率：3.82req/s] [内存消耗：538.38kb] [文件加载：81]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002135s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system` [ RunTime:0.004553s ]
+[ sql ] [ SQL ] SELECT * FROM `system` WHERE  `key` = 'base' LIMIT 1 [ RunTime:0.000505s ]
+---------------------------------------------------------------
+
+[2022-08-27T17:22:23+08:00] 60.249.39.199 GET htkj.chatimdajian.com/api/system/config
+[运行时间：0.333833s] [吞吐率：3.00req/s] [内存消耗：624.13kb] [文件加载：84]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001908s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.003854s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.003458s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.006337s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.000691s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.065253s ]
+---------------------------------------------------------------
+
+[2022-08-27T17:22:33+08:00] 60.249.39.199 GET htkj.chatimdajian.com/api/system/config
+[运行时间：0.385060s] [吞吐率：2.60req/s] [内存消耗：624.08kb] [文件加载：84]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004188s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.007753s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.001222s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.003260s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.003960s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.075927s ]
+---------------------------------------------------------------
+
+[2022-08-27T17:22:34+08:00] 60.249.39.199 GET htkj.chatimdajian.com/api/Lottery/hotLottery
+[运行时间：0.254862s] [吞吐率：3.92req/s] [内存消耗：545.56kb] [文件加载：83]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001564s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.005943s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000835s ]
+---------------------------------------------------------------
+
+[2022-08-27T17:22:50+08:00] 60.249.39.199 GET htkj.chatimdajian.com/api/Lottery/itemlist
+[运行时间：0.301061s] [吞吐率：3.32req/s] [内存消耗：547.34kb] [文件加载：83]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003253s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_class` [ RunTime:0.013588s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_class` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.001241s ]
+---------------------------------------------------------------
+
+[2022-08-27T17:22:50+08:00] 60.249.39.199 GET htkj.chatimdajian.com/api/Lottery/lotteryList
+[运行时间：0.643635s] [吞吐率：1.55req/s] [内存消耗：551.67kb] [文件加载：83]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003015s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.005797s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.004037s ]
+---------------------------------------------------------------
+
+[2022-08-27T17:29:23+08:00] 60.249.39.199 GET htkj.chatimdajian.com/api/system/base
+[运行时间：0.456855s] [吞吐率：2.19req/s] [内存消耗：538.33kb] [文件加载：81]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.208640s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system` [ RunTime:0.009325s ]
+[ sql ] [ SQL ] SELECT * FROM `system` WHERE  `key` = 'base' LIMIT 1 [ RunTime:0.000989s ]
+---------------------------------------------------------------
+
+[2022-08-27T17:29:23+08:00] 60.249.39.199 GET htkj.chatimdajian.com/api/system/config
+[运行时间：0.390784s] [吞吐率：2.56req/s] [内存消耗：624.07kb] [文件加载：84]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002063s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.006355s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.003499s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.005247s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.000775s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.096841s ]
+---------------------------------------------------------------
+
+[2022-08-27T17:29:24+08:00] 60.249.39.199 GET htkj.chatimdajian.com/api/Lottery/hotLottery
+[运行时间：0.254721s] [吞吐率：3.93req/s] [内存消耗：545.53kb] [文件加载：83]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002675s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.004912s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000551s ]
+---------------------------------------------------------------
+
+[2022-08-27T17:39:00+08:00] 42.3.53.60 GET htkj.chatimdajian.com/api/system/base
+[运行时间：0.263214s] [吞吐率：3.80req/s] [内存消耗：538.05kb] [文件加载：81]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Mobile/15E148 Safari/604.1',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005614s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system` [ RunTime:0.010745s ]
+[ sql ] [ SQL ] SELECT * FROM `system` WHERE  `key` = 'base' LIMIT 1 [ RunTime:0.000910s ]
+---------------------------------------------------------------
+
+[2022-08-27T17:39:00+08:00] 42.3.53.60 GET htkj.chatimdajian.com/api/system/config
+[运行时间：0.385167s] [吞吐率：2.60req/s] [内存消耗：623.80kb] [文件加载：84]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Mobile/15E148 Safari/604.1',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009290s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.004978s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.004154s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000453s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.004811s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.002171s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.073794s ]
+---------------------------------------------------------------
+
+[2022-08-27T17:39:01+08:00] 42.3.53.60 GET htkj.chatimdajian.com/api/Lottery/hotLottery
+[运行时间：0.286679s] [吞吐率：3.49req/s] [内存消耗：545.25kb] [文件加载：83]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Mobile/15E148 Safari/604.1',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003673s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.005629s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000700s ]
+---------------------------------------------------------------
+
+[2022-08-27T17:39:04+08:00] 42.3.53.60 GET htkj.chatimdajian.com/api/system/config
+[运行时间：0.394245s] [吞吐率：2.54req/s] [内存消耗：623.77kb] [文件加载：84]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Mobile/15E148 Safari/604.1',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006671s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.007581s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000886s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.003763s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000554s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.004673s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.090120s ]
+---------------------------------------------------------------
+
+[2022-08-27T17:39:04+08:00] 42.3.53.60 GET htkj.chatimdajian.com/api/Lottery/hotLottery
+[运行时间：0.296213s] [吞吐率：3.38req/s] [内存消耗：545.27kb] [文件加载：83]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Mobile/15E148 Safari/604.1',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003738s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.005629s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000631s ]
+---------------------------------------------------------------
+
+[2022-08-27T17:39:12+08:00] 42.3.53.60 GET htkj.chatimdajian.com/api/Lottery/lotteryList
+[运行时间：0.298639s] [吞吐率：3.35req/s] [内存消耗：551.38kb] [文件加载：83]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Mobile/15E148 Safari/604.1',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003236s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.005314s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000922s ]
+---------------------------------------------------------------
+
+[2022-08-27T17:39:12+08:00] 42.3.53.60 GET htkj.chatimdajian.com/api/Lottery/itemlist
+[运行时间：0.241011s] [吞吐率：4.15req/s] [内存消耗：547.07kb] [文件加载：83]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Mobile/15E148 Safari/604.1',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003461s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_class` [ RunTime:0.005093s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_class` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000611s ]
+---------------------------------------------------------------
+
+[2022-08-27T17:39:13+08:00] 42.3.53.60 GET htkj.chatimdajian.com/api/video/itemlist
+[运行时间：0.495108s] [吞吐率：2.02req/s] [内存消耗：556.45kb] [文件加载：83]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Mobile/15E148 Safari/604.1',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003294s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video_class` [ RunTime:0.006949s ]
+[ sql ] [ SQL ] SELECT * FROM `video_class` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.001893s ]
+---------------------------------------------------------------
+
+[2022-08-27T17:39:13+08:00] 42.3.53.60 GET htkj.chatimdajian.com/api/video/getVideoList?id=0&page=0
+[运行时间：0.414908s] [吞吐率：2.41req/s] [内存消耗：574.66kb] [文件加载：84]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://renwu.chatimdajian.com/',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Mobile/15E148 Safari/604.1',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'origin' => 'http://renwu.chatimdajian.com',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '0',
+  'page' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003405s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video_class` [ RunTime:0.004035s ]
+[ sql ] [ SQL ] SELECT * FROM `video_class` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.007052s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_class_id` = 1 LIMIT 0,8 [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `video` WHERE  `vod_class_id` = 1 [ RunTime:0.002132s ]

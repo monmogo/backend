@@ -1,0 +1,76 @@
+---------------------------------------------------------------
+
+[2022-02-01T23:58:20+08:00] 59.63.219.183 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/hotLottery
+[运行时间：0.023663s] [吞吐率：42.26req/s] [内存消耗：3,335.44kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => '*/*',
+  'token' => 'NjIxNA==',
+  'user-agent' => 'meimaweb-android',
+  'connection' => 'close',
+  'x-request-id' => '69413ee5b6146beb387341ef3e493b1e',
+  'x-country' => 'CN',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '59.63.219.183',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '59.63.219.183',
+  'x-forwarded-for' => '59.63.219.183',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000504s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000944s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000386s ]
+---------------------------------------------------------------
+
+[2022-02-01T23:59:01+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.144096s] [吞吐率：6.94req/s] [内存消耗：3,403.09kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => 'b7d72b5c1d431cda1caed739d3728f64',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000570s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000901s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000821s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020111439' LIMIT 1 [ RunTime:0.047753s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.001078s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020111439' LIMIT 1 [ RunTime:0.003353s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020111439' , '5,3,6' , 0 , 1643731141 , 1643731141) [ RunTime:0.004012s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202013479' LIMIT 1 [ RunTime:0.022839s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202013479' LIMIT 1 [ RunTime:0.002002s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202015287' LIMIT 1 [ RunTime:0.022924s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202015287' LIMIT 1 [ RunTime:0.002071s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000432s ]

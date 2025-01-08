@@ -1,0 +1,67 @@
+---------------------------------------------------------------
+
+[2022-08-22T04:22:50+08:00] 8.142.168.136 HEAD htkj.chatimdajian.com/
+[运行时间：0.548308s] [吞吐率：1.82req/s] [内存消耗：778.49kb] [文件加载：90]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (linux; u; android 9; zh-cn; v1816a build/pkq1.180819.001) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/57',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-08-22T04:22:50+08:00] 8.142.168.136 HEAD htkj.chatimdajian.com/admin/login/index/
+[运行时间：0.282847s] [吞吐率：3.54req/s] [内存消耗：507.67kb] [文件加载：92]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=74mvqbkc2t4eqiqmbhhj0d9hah',
+  'connection' => 'close',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (linux; u; android 9; zh-cn; v1816a build/pkq1.180819.001) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/57',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\application\admin\view\login\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-08-22T04:22:51+08:00] 8.142.168.136 GET htkj.chatimdajian.com/
+[运行时间：0.253266s] [吞吐率：3.95req/s] [内存消耗：505.20kb] [文件加载：92]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (linux; u; android 9; zh-cn; v1816a build/pkq1.180819.001) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/57',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-08-22T05:42:45+08:00] 218.200.57.54 GET htkj.chatimdajian.com/
+[运行时间：0.493375s] [吞吐率：2.03req/s] [内存消耗：778.37kb] [文件加载：90]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)

@@ -1,0 +1,3619 @@
+---------------------------------------------------------------
+
+[2022-02-19T00:44:29+08:00] 130.211.54.158 GET 40.83.103.135/
+[运行时间：0.018321s] [吞吐率：54.58req/s] [内存消耗：2,807.90kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'x-datadog-sampling-priority' => '1',
+  'x-datadog-parent-id' => '8315013798868082173',
+  'x-datadog-trace-id' => '16056313205559252774',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'python-requests/2.27.1',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-19T00:57:32+08:00] 123.52.70.71 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/base
+[运行时间：0.022268s] [吞吐率：44.91req/s] [内存消耗：3,260.84kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000421s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system` [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT * FROM `system` WHERE  `key` = 'base' LIMIT 1 [ RunTime:0.000247s ]
+---------------------------------------------------------------
+
+[2022-02-19T00:57:32+08:00] 123.52.70.71 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/config
+[运行时间：0.083472s] [吞吐率：11.98req/s] [内存消耗：3,412.17kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000390s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000743s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.016444s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.033138s ]
+---------------------------------------------------------------
+
+[2022-02-19T00:57:32+08:00] 123.52.70.71 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/hotLottery
+[运行时间：0.022114s] [吞吐率：45.22req/s] [内存消耗：3,333.63kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000368s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000659s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000339s ]
+---------------------------------------------------------------
+
+[2022-02-19T01:44:18+08:00] 79.98.25.208 GET 40.83.103.135/.env
+[运行时间：0.018104s] [吞吐率：55.24req/s] [内存消耗：2,808.24kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; HM NOTE 1W Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.0.5.850 U3/0.8.0 Mobile Safari/534.30',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-19T01:44:19+08:00] 79.98.25.208 POST 40.83.103.135/
+[运行时间：0.029175s] [吞吐率：34.28req/s] [内存消耗：3,674.44kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '20',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-US; HM NOTE 1W Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.0.5.850 U3/0.8.0 Mobile Safari/534.30',
+  'host' => '40.83.103.135',
+)
+[ info ] [ PARAM ] array (
+  '0x' => 
+  array (
+    0 => 'androxgh0st',
+  ),
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000330s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.000564s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/' , '{\"0x\":[\"androxgh0st\"]}' , '79.98.25.208' , NULL , NULL) [ RunTime:0.000259s ]
+---------------------------------------------------------------
+
+[2022-02-19T02:38:49+08:00] 162.142.125.211 GET 40.83.103.135:443/
+[运行时间：0.022933s] [吞吐率：43.61req/s] [内存消耗：2,806.43kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '40.83.103.135:443',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-19T02:38:50+08:00] 162.142.125.211 GET 40.83.103.135/
+[运行时间：0.024219s] [吞吐率：41.29req/s] [内存消耗：2,806.97kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-19T02:38:51+08:00] 162.142.125.211 GET 40.83.103.135/admin/login/index/
+[运行时间：0.019307s] [吞吐率：51.79req/s] [内存消耗：2,810.33kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-19T03:09:15+08:00] 213.32.122.82 GET 40.83.103.135/
+[运行时间：0.020044s] [吞吐率：49.89req/s] [内存消耗：2,806.94kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36',
+  'connection' => 'close',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-19T03:09:16+08:00] 213.32.122.82 GET 40.83.103.135/admin/login/index/
+[运行时间：0.023150s] [吞吐率：43.20req/s] [内存消耗：2,810.30kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36',
+  'connection' => 'close',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-19T04:28:59+08:00] 192.241.211.83 GET 40.83.103.135/actuator/health
+[运行时间：0.009774s] [吞吐率：102.31req/s] [内存消耗：1,192.04kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-19T05:05:11+08:00] 182.97.112.113 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/base
+[运行时间：0.029222s] [吞吐率：34.22req/s] [内存消耗：3,260.68kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000317s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system` [ RunTime:0.000815s ]
+[ sql ] [ SQL ] SELECT * FROM `system` WHERE  `key` = 'base' LIMIT 1 [ RunTime:0.000266s ]
+---------------------------------------------------------------
+
+[2022-02-19T05:05:11+08:00] 182.97.112.113 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/config
+[运行时间：0.134388s] [吞吐率：7.44req/s] [内存消耗：3,411.10kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000581s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.000826s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.001914s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000880s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.021816s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.044752s ]
+---------------------------------------------------------------
+
+[2022-02-19T05:05:11+08:00] 182.97.112.113 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/hotLottery
+[运行时间：0.029627s] [吞吐率：33.75req/s] [内存消耗：3,333.45kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000341s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000849s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000334s ]
+---------------------------------------------------------------
+
+[2022-02-19T05:11:28+08:00] 117.169.11.178 GET admin.mihuanjishupinzhifuwudiyi44.cc/
+[运行时间：0.019731s] [吞吐率：50.68req/s] [内存消耗：2,808.33kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 9.0; ZTE BA520 Build/MRA58K)',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-19T05:11:28+08:00] 117.169.11.178 GET admin.mihuanjishupinzhifuwudiyi44.cc/admin/login/index/
+[运行时间：0.019942s] [吞吐率：50.15req/s] [内存消耗：2,811.54kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=3m7scqv2i0aekn0rlj52f9t68n',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 9.0; ZTE BA520 Build/MRA58K)',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-19T05:13:43+08:00] 117.169.11.178 GET admin.mihuanjishupinzhifuwudiyi44.cc/
+[运行时间：0.019383s] [吞吐率：51.59req/s] [内存消耗：2,808.33kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11) AppleWebKit/601.1.27 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/601.1.27',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-19T05:13:43+08:00] 117.169.11.178 GET admin.mihuanjishupinzhifuwudiyi44.cc/admin/login/index/
+[运行时间：0.019731s] [吞吐率：50.68req/s] [内存消耗：2,811.79kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=0gds36q9ootg62nf8l1jcgouhm',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'no-cache',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11) AppleWebKit/601.1.27 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/601.1.27',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-19T06:27:42+08:00] 209.17.96.138 GET 40.83.103.135:443/
+[运行时间：0.019225s] [吞吐率：52.02req/s] [内存消耗：2,806.75kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)',
+  'host' => '40.83.103.135:443',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-19T06:27:43+08:00] 209.17.96.138 GET 40.83.103.135:443/admin/login/index/
+[运行时间：0.019339s] [吞吐率：51.71req/s] [内存消耗：2,810.05kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)',
+  'host' => '40.83.103.135:443',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-19T08:00:36+08:00] 192.241.196.173 GET 40.83.103.135/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+[运行时间：0.009344s] [吞吐率：107.02req/s] [内存消耗：1,192.27kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-19T08:01:55+08:00] 192.241.208.104 GET 40.83.103.135/owa/auth/logon.aspx?url=https%3a%2f%2f1%2fecp%2f
+[运行时间：0.009749s] [吞吐率：102.58req/s] [内存消耗：1,192.10kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-19T08:02:31+08:00] 40.77.202.115 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/base
+[运行时间：0.023242s] [吞吐率：43.03req/s] [内存消耗：3,260.75kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000408s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system` [ RunTime:0.001043s ]
+[ sql ] [ SQL ] SELECT * FROM `system` WHERE  `key` = 'base' LIMIT 1 [ RunTime:0.000393s ]
+---------------------------------------------------------------
+
+[2022-02-19T08:02:31+08:00] 40.77.202.115 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/config
+[运行时间：0.075861s] [吞吐率：13.18req/s] [内存消耗：3,411.41kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000303s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.000772s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000750s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000799s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.016635s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.025916s ]
+---------------------------------------------------------------
+
+[2022-02-19T08:02:31+08:00] 40.77.202.115 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/hotLottery
+[运行时间：0.030282s] [吞吐率：33.02req/s] [内存消耗：3,333.59kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000495s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000804s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000356s ]
+---------------------------------------------------------------
+
+[2022-02-19T08:07:55+08:00] 92.118.161.45 GET 40.83.103.135:443/
+[运行时间：0.026985s] [吞吐率：37.06req/s] [内存消耗：2,806.94kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'NetSystemsResearch studies the availability of various services across the internet. Our website is netsystemsresearch.com',
+  'host' => '40.83.103.135:443',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-19T08:07:57+08:00] 92.118.161.45 GET 40.83.103.135:443/admin/login/index/
+[运行时间：0.059370s] [吞吐率：16.84req/s] [内存消耗：2,810.30kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'NetSystemsResearch studies the availability of various services across the internet. Our website is netsystemsresearch.com',
+  'host' => '40.83.103.135:443',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-19T08:39:50+08:00] 45.146.165.37 GET 40.83.103.135:443/?XDEBUG_SESSION_START=phpstorm
+[运行时间：0.028665s] [吞吐率：34.89req/s] [内存消耗：3,674.52kb] [文件加载：95]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '40.83.103.135:443',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => 'phpstorm',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000478s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.000741s ]
+[ sql ] [ SQL ] INSERT INTO `user_log` (`url` , `param` , `ip` , `uid` , `uname`) VALUES ('/' , '{\"XDEBUG_SESSION_START\":\"phpstorm\"}' , '45.146.165.37' , NULL , NULL) [ RunTime:0.000303s ]
+---------------------------------------------------------------
+
+[2022-02-19T08:39:53+08:00] 45.146.165.37 GET 40.83.103.135:443/admin/login/index/
+[运行时间：0.021194s] [吞吐率：47.18req/s] [内存消耗：2,810.78kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://40.83.103.135:443/?XDEBUG_SESSION_START=phpstorm',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '40.83.103.135:443',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-19T08:49:36+08:00] 109.237.103.9 GET 40.83.103.135/.env
+[运行时间：0.018319s] [吞吐率：54.59req/s] [内存消耗：2,807.99kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-19T09:13:57+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/base
+[运行时间：0.023104s] [吞吐率：43.28req/s] [内存消耗：3,260.84kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000517s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system` [ RunTime:0.000678s ]
+[ sql ] [ SQL ] SELECT * FROM `system` WHERE  `key` = 'base' LIMIT 1 [ RunTime:0.000252s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:13:57+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/config
+[运行时间：0.060916s] [吞吐率：16.42req/s] [内存消耗：3,411.63kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000412s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.000700s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000602s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000645s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.010894s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.024979s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:13:57+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/hotLottery
+[运行时间：0.022311s] [吞吐率：44.82req/s] [内存消耗：3,333.64kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000452s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000299s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:14:24+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/member/doLogin?username=%E6%9D%9C%E7%BB%9D%E4%B8%80%E5%88%87%E9%9A%8F%E7%BC%98%E5%8F%AF%E8%83%BD&password=yjk13136389698
+[运行时间：0.027866s] [吞吐率：35.89req/s] [内存消耗：3,275.27kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'username' => '杜绝一切随缘可能',
+  'password' => 'yjk13136389698',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000512s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.000860s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `username` = '杜绝一切随缘可能' LIMIT 1 [ RunTime:0.001444s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:14:34+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/base
+[运行时间：0.032726s] [吞吐率：30.56req/s] [内存消耗：3,260.80kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000285s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system` [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `system` WHERE  `key` = 'base' LIMIT 1 [ RunTime:0.000418s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:14:34+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/config
+[运行时间：0.069351s] [吞吐率：14.42req/s] [内存消耗：3,411.50kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000353s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.001030s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000924s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000842s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.009891s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.025543s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:14:34+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/hotLottery
+[运行时间：0.022842s] [吞吐率：43.78req/s] [内存消耗：3,333.63kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000355s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000361s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:14:48+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/base
+[运行时间：0.022250s] [吞吐率：44.94req/s] [内存消耗：3,260.80kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000374s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system` [ RunTime:0.000747s ]
+[ sql ] [ SQL ] SELECT * FROM `system` WHERE  `key` = 'base' LIMIT 1 [ RunTime:0.000238s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:14:48+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/config
+[运行时间：0.062303s] [吞吐率：16.05req/s] [内存消耗：3,412.30kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000482s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.000708s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.010272s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.025899s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:14:48+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/hotLottery
+[运行时间：0.024114s] [吞吐率：41.47req/s] [内存消耗：3,333.61kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000546s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000816s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000312s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:14:49+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/config
+[运行时间：0.061133s] [吞吐率：16.36req/s] [内存消耗：3,411.28kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000387s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.000682s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.010057s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.024796s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:14:50+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/hotLottery
+[运行时间：0.021937s] [吞吐率：45.59req/s] [内存消耗：3,333.63kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000457s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000602s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000264s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:14:58+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/video/itemlist
+[运行时间：0.034262s] [吞吐率：29.19req/s] [内存消耗：3,336.34kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000746s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video_class` [ RunTime:0.000811s ]
+[ sql ] [ SQL ] SELECT * FROM `video_class` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000343s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:14:58+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/video/getVideoList?id=0&page=0
+[运行时间：0.040878s] [吞吐率：24.46req/s] [内存消耗：3,358.20kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '0',
+  'page' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000339s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video_class` [ RunTime:0.000888s ]
+[ sql ] [ SQL ] SELECT * FROM `video_class` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000814s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_class_id` = 1 LIMIT 0,8 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `video` WHERE  `vod_class_id` = 1 [ RunTime:0.006097s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:15:03+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/video/getVideoList?id=0&page=1
+[运行时间：0.038720s] [吞吐率：25.83req/s] [内存消耗：3,358.18kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '0',
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000364s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video_class` [ RunTime:0.000907s ]
+[ sql ] [ SQL ] SELECT * FROM `video_class` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000851s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_class_id` = 1 LIMIT 0,8 [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `video` WHERE  `vod_class_id` = 1 [ RunTime:0.007050s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:15:04+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/video/getVideoList?id=0&page=2
+[运行时间：0.037318s] [吞吐率：26.80req/s] [内存消耗：3,358.16kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '0',
+  'page' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000382s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video_class` [ RunTime:0.000925s ]
+[ sql ] [ SQL ] SELECT * FROM `video_class` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000851s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_class_id` = 1 LIMIT 8,8 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `video` WHERE  `vod_class_id` = 1 [ RunTime:0.007589s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:15:05+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/video/getVideoList?id=4&page=0
+[运行时间：0.029663s] [吞吐率：33.71req/s] [内存消耗：3,358.96kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+  'page' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000489s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video_class` [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SELECT * FROM `video_class` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_class_id` = 5 LIMIT 0,8 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `video` WHERE  `vod_class_id` = 5 [ RunTime:0.005085s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:15:09+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/video/getVideoList?id=4&page=1
+[运行时间：0.036209s] [吞吐率：27.62req/s] [内存消耗：3,358.96kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000294s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video_class` [ RunTime:0.001216s ]
+[ sql ] [ SQL ] SELECT * FROM `video_class` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000751s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_class_id` = 5 LIMIT 0,8 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `video` WHERE  `vod_class_id` = 5 [ RunTime:0.004297s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:15:11+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/video/getVideoList?id=4&page=2
+[运行时间：0.041640s] [吞吐率：24.02req/s] [内存消耗：3,358.73kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+  'page' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000377s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video_class` [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SELECT * FROM `video_class` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000769s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_class_id` = 5 LIMIT 8,8 [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `video` WHERE  `vod_class_id` = 5 [ RunTime:0.007243s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:15:15+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/video/getVideoList?id=7&page=0
+[运行时间：0.040231s] [吞吐率：24.86req/s] [内存消耗：3,357.81kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+  'page' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000443s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video_class` [ RunTime:0.000979s ]
+[ sql ] [ SQL ] SELECT * FROM `video_class` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000873s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_class_id` = 8 LIMIT 0,8 [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `video` WHERE  `vod_class_id` = 8 [ RunTime:0.007382s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:15:23+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/video/getVideoList?id=8&page=0
+[运行时间：0.028705s] [吞吐率：34.84req/s] [内存消耗：3,358.40kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '8',
+  'page' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000373s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video_class` [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SELECT * FROM `video_class` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_class_id` = 9 LIMIT 0,8 [ RunTime:0.001446s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `video` WHERE  `vod_class_id` = 9 [ RunTime:0.003709s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:15:30+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/video/itemlist
+[运行时间：0.022806s] [吞吐率：43.85req/s] [内存消耗：3,336.34kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000343s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video_class` [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT * FROM `video_class` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000255s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:15:30+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/video/getVideoList?id=0&page=0
+[运行时间：0.028966s] [吞吐率：34.52req/s] [内存消耗：3,358.18kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '0',
+  'page' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000363s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video_class` [ RunTime:0.000564s ]
+[ sql ] [ SQL ] SELECT * FROM `video_class` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_class_id` = 1 LIMIT 0,8 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `video` WHERE  `vod_class_id` = 1 [ RunTime:0.004267s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:15:46+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/video/getVideoList?id=6&page=0
+[运行时间：0.042490s] [吞吐率：23.53req/s] [内存消耗：3,357.94kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+  'page' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000579s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video_class` [ RunTime:0.000966s ]
+[ sql ] [ SQL ] SELECT * FROM `video_class` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000908s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_class_id` = 7 LIMIT 0,8 [ RunTime:0.002636s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `video` WHERE  `vod_class_id` = 7 [ RunTime:0.007526s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:15:51+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/video/getVideoList?id=5&page=0
+[运行时间：0.037465s] [吞吐率：26.69req/s] [内存消耗：3,355.59kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+  'page' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000473s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video_class` [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SELECT * FROM `video_class` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_class_id` = 6 LIMIT 0,8 [ RunTime:0.009267s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `video` WHERE  `vod_class_id` = 6 [ RunTime:0.003716s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:16:01+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/video/itemlist
+[运行时间：0.023701s] [吞吐率：42.19req/s] [内存消耗：3,336.34kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000501s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video_class` [ RunTime:0.000677s ]
+[ sql ] [ SQL ] SELECT * FROM `video_class` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000295s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:16:01+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/video/getVideoList?id=0&page=0
+[运行时间：0.029011s] [吞吐率：34.47req/s] [内存消耗：3,358.20kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '0',
+  'page' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000451s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video_class` [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SELECT * FROM `video_class` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_class_id` = 1 LIMIT 0,8 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `video` WHERE  `vod_class_id` = 1 [ RunTime:0.003898s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:16:03+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/itemlist
+[运行时间：0.022999s] [吞吐率：43.48req/s] [内存消耗：3,332.55kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000337s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_class` [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_class` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000304s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:16:03+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/lotteryList
+[运行时间：0.031203s] [吞吐率：32.05req/s] [内存消耗：3,339.31kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000345s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000804s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000342s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:16:06+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/lotteryList?class=1
+[运行时间：0.024426s] [吞吐率：40.94req/s] [内存消耗：3,341.03kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'class' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000426s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_class` [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_class` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000666s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1  AND `cid` = 3 ORDER BY `id` ASC [ RunTime:0.000254s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:16:07+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/lotteryList?class=2
+[运行时间：0.033400s] [吞吐率：29.94req/s] [内存消耗：3,340.98kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'class' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000460s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_class` [ RunTime:0.000720s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_class` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000690s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1  AND `cid` = 4 ORDER BY `id` ASC [ RunTime:0.000322s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:16:10+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/itemlist
+[运行时间：0.029128s] [吞吐率：34.33req/s] [内存消耗：3,332.55kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000463s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_class` [ RunTime:0.001073s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_class` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000347s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:16:10+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/lotteryList
+[运行时间：0.031425s] [吞吐率：31.82req/s] [内存消耗：3,339.30kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000325s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000794s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000366s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:16:11+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/lotteryList?class=3
+[运行时间：0.024745s] [吞吐率：40.41req/s] [内存消耗：3,341.03kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'class' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000478s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_class` [ RunTime:0.000785s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_class` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000676s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1  AND `cid` = 5 ORDER BY `id` ASC [ RunTime:0.000265s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:16:12+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/lotteryList
+[运行时间：0.024835s] [吞吐率：40.27req/s] [内存消耗：3,339.30kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000483s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000790s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000304s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:16:12+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/itemlist
+[运行时间：0.022289s] [吞吐率：44.87req/s] [内存消耗：3,332.57kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000408s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_class` [ RunTime:0.000689s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_class` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000271s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:22:49+08:00] 2.57.121.11 GET 40.83.103.135//a2billing/customer/templates/default/footer.tpl
+[运行时间：0.009158s] [吞吐率：109.20req/s] [内存消耗：1,192.56kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-19T09:24:02+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/base
+[运行时间：0.022245s] [吞吐率：44.95req/s] [内存消耗：3,260.80kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000530s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system` [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SELECT * FROM `system` WHERE  `key` = 'base' LIMIT 1 [ RunTime:0.000253s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:24:02+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/config
+[运行时间：0.060004s] [吞吐率：16.67req/s] [内存消耗：3,411.18kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000377s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.000753s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.010173s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.024586s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:24:02+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/hotLottery
+[运行时间：0.023218s] [吞吐率：43.07req/s] [内存消耗：3,333.61kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000536s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000821s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000303s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:24:03+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/base
+[运行时间：0.023392s] [吞吐率：42.75req/s] [内存消耗：3,260.84kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000428s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system` [ RunTime:0.000750s ]
+[ sql ] [ SQL ] SELECT * FROM `system` WHERE  `key` = 'base' LIMIT 1 [ RunTime:0.000244s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:24:03+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/config
+[运行时间：0.058678s] [吞吐率：17.04req/s] [内存消耗：3,411.30kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000315s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.009028s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.024191s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:24:03+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/hotLottery
+[运行时间：0.023674s] [吞吐率：42.24req/s] [内存消耗：3,333.64kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000380s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000824s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000360s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:24:04+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/config
+[运行时间：0.088153s] [吞吐率：11.34req/s] [内存消耗：3,411.43kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000339s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.000703s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000843s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000777s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.016401s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.037401s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:24:05+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/hotLottery
+[运行时间：0.022696s] [吞吐率：44.06req/s] [内存消耗：3,333.63kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000328s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000247s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:24:11+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/lotteryList
+[运行时间：0.022275s] [吞吐率：44.89req/s] [内存消耗：3,339.30kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000485s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000796s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000277s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:24:11+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/itemlist
+[运行时间：0.022831s] [吞吐率：43.80req/s] [内存消耗：3,332.55kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000263s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_class` [ RunTime:0.000847s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_class` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000331s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:24:13+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/config
+[运行时间：0.062387s] [吞吐率：16.03req/s] [内存消耗：3,411.40kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000299s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.009655s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.024599s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:24:13+08:00] 101.71.110.48 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/hotLottery
+[运行时间：0.022070s] [吞吐率：45.31req/s] [内存消耗：3,333.64kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000381s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000669s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000355s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:24:52+08:00] 101.71.110.48 POST admin.mihuanjishupinzhifuwudiyi44.cc/api/member/doRegister
+[运行时间：0.016460s] [吞吐率：60.75req/s] [内存消耗：2,364.27kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded;charset=UTF-8',
+  'user-agent' => 'meimaweb-android',
+  'content-length' => '214',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+)
+[ info ] [ PARAM ] array (
+  'username' => '$lyepar@yr@teosap@yb@op@lpb@mmeroch2pw@@p5o672310@ca9@y9@9999yb@@a1@y0@220030yb@@a1@y0@6500b1@y4@ya@@460610id@s1292653665t$',
+  'password' => 'jjjhuj',
+  'code' => 'Hdhdhdud',
+)
+---------------------------------------------------------------
+
+[2022-02-19T09:25:06+08:00] 101.71.110.48 POST admin.mihuanjishupinzhifuwudiyi44.cc/api/member/doRegister
+[运行时间：0.023432s] [吞吐率：42.68req/s] [内存消耗：2,363.82kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded;charset=UTF-8',
+  'user-agent' => 'meimaweb-android',
+  'content-length' => '84',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+)
+[ info ] [ PARAM ] array (
+  'username' => '含笑半步癫',
+  'password' => 'jjjhuj',
+  'code' => 'Hdhdhdud',
+)
+---------------------------------------------------------------
+
+[2022-02-19T09:25:08+08:00] 101.71.110.48 POST admin.mihuanjishupinzhifuwudiyi44.cc/api/member/doRegister
+[运行时间：0.031122s] [吞吐率：32.13req/s] [内存消耗：2,363.82kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded;charset=UTF-8',
+  'user-agent' => 'meimaweb-android',
+  'content-length' => '84',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+)
+[ info ] [ PARAM ] array (
+  'username' => '含笑半步癫',
+  'password' => 'jjjhuj',
+  'code' => 'Hdhdhdud',
+)
+---------------------------------------------------------------
+
+[2022-02-19T09:25:15+08:00] 101.71.110.48 POST admin.mihuanjishupinzhifuwudiyi44.cc/api/member/doRegister
+[运行时间：0.015767s] [吞吐率：63.42req/s] [内存消耗：2,363.73kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded;charset=UTF-8',
+  'user-agent' => 'meimaweb-android',
+  'content-length' => '42',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'Yjk',
+  'password' => 'jjjhuj',
+  'code' => 'Hdhdhdud',
+)
+---------------------------------------------------------------
+
+[2022-02-19T09:25:21+08:00] 101.71.110.48 POST admin.mihuanjishupinzhifuwudiyi44.cc/api/member/doRegister
+[运行时间：0.024444s] [吞吐率：40.91req/s] [内存消耗：3,331.03kb] [文件加载：80]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded;charset=UTF-8',
+  'user-agent' => 'meimaweb-android',
+  'content-length' => '45',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'Yjkkjy',
+  'password' => 'jjjhuj',
+  'code' => 'Hdhdhdud',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000450s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `code` = Hdhdhdud LIMIT 1 [ RunTime:0.000291s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:25:29+08:00] 101.71.110.48 POST admin.mihuanjishupinzhifuwudiyi44.cc/api/member/doRegister
+[运行时间：0.022829s] [吞吐率：43.80req/s] [内存消耗：3,330.99kb] [文件加载：80]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded;charset=UTF-8',
+  'user-agent' => 'meimaweb-android',
+  'content-length' => '43',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'Yjkkjy',
+  'password' => 'jjjhuj',
+  'code' => 'Ihuvjk',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000465s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000712s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `code` = Ihuvjk LIMIT 1 [ RunTime:0.000281s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:25:41+08:00] 101.71.110.48 POST admin.mihuanjishupinzhifuwudiyi44.cc/api/member/doRegister
+[运行时间：0.030436s] [吞吐率：32.86req/s] [内存消耗：3,328.31kb] [文件加载：80]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded;charset=UTF-8',
+  'user-agent' => 'meimaweb-android',
+  'content-length' => '41',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'Yjkkjy',
+  'password' => 'jjjhuj',
+  'code' => '5686',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000374s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000693s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `code` = 5686 LIMIT 1 [ RunTime:0.000292s ]
+---------------------------------------------------------------
+
+[2022-02-19T09:25:52+08:00] 101.71.110.48 POST admin.mihuanjishupinzhifuwudiyi44.cc/api/member/doRegister
+[运行时间：0.022577s] [吞吐率：44.29req/s] [内存消耗：3,328.31kb] [文件加载：80]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded;charset=UTF-8',
+  'user-agent' => 'meimaweb-android',
+  'content-length' => '41',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'Yjkkjy',
+  'password' => 'jjjhuj',
+  'code' => '8699',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000388s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000822s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `code` = 8699 LIMIT 1 [ RunTime:0.000291s ]
+---------------------------------------------------------------
+
+[2022-02-19T10:11:44+08:00] 45.146.165.37 POST 40.83.103.135:443/mifs/.;/services/LogService
+[运行时间：0.009371s] [吞吐率：106.71req/s] [内存消耗：1,158.80kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-19T10:26:43+08:00] 192.241.213.125 GET 40.83.103.135/
+[运行时间：0.019009s] [吞吐率：52.61req/s] [内存消耗：2,806.75kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 zgrab/0.x',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-19T10:32:56+08:00] 45.146.165.37 GET 40.83.103.135:443/console/
+[运行时间：0.010472s] [吞吐率：95.49req/s] [内存消耗：1,192.08kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-19T10:40:19+08:00] 162.142.125.219 GET 40.83.103.135:443/
+[运行时间：0.018324s] [吞吐率：54.57req/s] [内存消耗：2,806.43kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '40.83.103.135:443',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-19T10:40:20+08:00] 162.142.125.219 GET 40.83.103.135/
+[运行时间：0.019426s] [吞吐率：51.48req/s] [内存消耗：2,806.97kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-19T10:40:21+08:00] 162.142.125.219 GET 40.83.103.135/admin/login/index/
+[运行时间：0.018448s] [吞吐率：54.21req/s] [内存消耗：2,810.33kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-19T11:12:56+08:00] 34.86.35.4 GET admin.mihuanjishupinzhifuwudiyi44.cc/
+[运行时间：0.022433s] [吞吐率：44.58req/s] [内存消耗：2,807.33kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-19T11:14:50+08:00] 45.146.165.37 POST 40.83.103.135:443/Autodiscover/Autodiscover.xml
+[运行时间：0.009478s] [吞吐率：105.51req/s] [内存消耗：1,191.98kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-19T11:31:31+08:00] 192.241.209.78 GET 40.83.103.135/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+[运行时间：0.009445s] [吞吐率：105.88req/s] [内存消耗：1,192.27kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-19T12:05:18+08:00] 157.55.39.66 GET admin.mihuanjishupinzhifuwudiyi44.cc/admin/login/index/
+[运行时间：0.019138s] [吞吐率：52.25req/s] [内存消耗：2,811.11kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)',
+  'from' => 'bingbot(at)microsoft.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-19T12:29:13+08:00] 45.146.165.37 GET 40.83.103.135:443/_ignition/execute-solution
+[运行时间：0.010159s] [吞吐率：98.43req/s] [内存消耗：1,159.34kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-19T12:42:33+08:00] 64.62.197.32 GET 40.83.103.135/
+[运行时间：0.018983s] [吞吐率：52.68req/s] [内存消耗：2,806.39kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-19T13:36:28+08:00] 45.146.165.37 GET 40.83.103.135:443/
+[运行时间：0.018661s] [吞吐率：53.59req/s] [内存消耗：2,807.20kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '40.83.103.135:443',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-19T13:36:32+08:00] 45.146.165.37 GET 40.83.103.135:443/admin/login/index/
+[运行时间：0.022494s] [吞吐率：44.46req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://40.83.103.135:443/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '40.83.103.135:443',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-19T13:55:44+08:00] 175.15.19.112 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/base
+[运行时间：0.072965s] [吞吐率：13.71req/s] [内存消耗：3,260.84kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005163s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system` [ RunTime:0.038965s ]
+[ sql ] [ SQL ] SELECT * FROM `system` WHERE  `key` = 'base' LIMIT 1 [ RunTime:0.000299s ]
+---------------------------------------------------------------
+
+[2022-02-19T13:55:44+08:00] 175.15.19.112 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/config
+[运行时间：0.142765s] [吞吐率：7.00req/s] [内存消耗：3,411.88kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018077s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000733s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.027798s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000942s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.021124s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.041536s ]
+---------------------------------------------------------------
+
+[2022-02-19T13:55:44+08:00] 175.15.19.112 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/hotLottery
+[运行时间：0.044751s] [吞吐率：22.35req/s] [内存消耗：3,333.63kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001566s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.001779s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000334s ]
+---------------------------------------------------------------
+
+[2022-02-19T13:56:07+08:00] 175.15.19.112 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/member/doLogin?username=%E5%87%A0v&password=zx18845
+[运行时间：0.030726s] [吞吐率：32.55req/s] [内存消耗：3,275.08kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'username' => '几v',
+  'password' => 'zx18845',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000429s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.000972s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `username` = '几v' LIMIT 1 [ RunTime:0.001502s ]
+---------------------------------------------------------------
+
+[2022-02-19T13:56:08+08:00] 175.15.19.112 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/member/doLogin?username=%E5%87%A0v&password=zx18845
+[运行时间：0.029635s] [吞吐率：33.74req/s] [内存消耗：3,275.08kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'username' => '几v',
+  'password' => 'zx18845',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000415s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.000743s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `username` = '几v' LIMIT 1 [ RunTime:0.001215s ]
+---------------------------------------------------------------
+
+[2022-02-19T13:58:32+08:00] 45.146.165.37 GET 40.83.103.135:443/
+[运行时间：0.018423s] [吞吐率：54.28req/s] [内存消耗：2,807.24kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '40.83.103.135:443',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-19T13:58:37+08:00] 45.146.165.37 GET 40.83.103.135:443/admin/login/index/
+[运行时间：0.022821s] [吞吐率：43.82req/s] [内存消耗：2,810.63kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://40.83.103.135:443',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '40.83.103.135:443',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-19T14:01:38+08:00] 112.97.61.203 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/base
+[运行时间：0.022640s] [吞吐率：44.17req/s] [内存消耗：3,260.71kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'accept' => '*/*',
+  'token' => 'NjEzOQ==',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'sec-fetch-mode' => 'cors',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000444s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system` [ RunTime:0.000899s ]
+[ sql ] [ SQL ] SELECT * FROM `system` WHERE  `key` = 'base' LIMIT 1 [ RunTime:0.000246s ]
+---------------------------------------------------------------
+
+[2022-02-19T14:01:38+08:00] 112.97.61.203 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/config
+[运行时间：0.062760s] [吞吐率：15.93req/s] [内存消耗：3,411.27kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'accept' => '*/*',
+  'token' => 'NjEzOQ==',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'sec-fetch-mode' => 'cors',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000447s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.000783s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000684s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.010268s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.026149s ]
+---------------------------------------------------------------
+
+[2022-02-19T14:01:38+08:00] 112.97.61.203 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/hotLottery
+[运行时间：0.030594s] [吞吐率：32.69req/s] [内存消耗：3,333.49kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'accept' => '*/*',
+  'token' => 'NjEzOQ==',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'sec-fetch-mode' => 'cors',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000381s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000847s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000393s ]
+---------------------------------------------------------------
+
+[2022-02-19T14:03:34+08:00] 112.97.61.203 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/member/getUserInfo
+[运行时间：0.022464s] [吞吐率：44.52req/s] [内存消耗：3,290.77kb] [文件加载：80]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'accept' => '*/*',
+  'token' => 'NjEzOQ==',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'sec-fetch-mode' => 'cors',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000487s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.000827s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `id` = 6139 LIMIT 1 [ RunTime:0.000317s ]
+---------------------------------------------------------------
+
+[2022-02-19T14:03:37+08:00] 112.97.61.203 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/member/getUserInfo
+[运行时间：0.024062s] [吞吐率：41.56req/s] [内存消耗：3,290.79kb] [文件加载：80]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'accept' => '*/*',
+  'token' => 'NjEzOQ==',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'sec-fetch-mode' => 'cors',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000523s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.000833s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `id` = 6139 LIMIT 1 [ RunTime:0.000321s ]
+---------------------------------------------------------------
+
+[2022-02-19T14:03:38+08:00] 112.97.61.203 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/member/getUserInfo
+[运行时间：0.022784s] [吞吐率：43.89req/s] [内存消耗：3,290.79kb] [文件加载：80]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'accept' => '*/*',
+  'token' => 'NjEzOQ==',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'sec-fetch-mode' => 'cors',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000438s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.000866s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `id` = 6139 LIMIT 1 [ RunTime:0.000364s ]
+---------------------------------------------------------------
+
+[2022-02-19T14:03:59+08:00] 112.97.61.203 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/member/getPersonalreport
+[运行时间：0.032702s] [吞吐率：30.58req/s] [内存消耗：3,313.74kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'accept' => '*/*',
+  'token' => 'NjEzOQ==',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'sec-fetch-mode' => 'cors',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000465s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.000917s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `id` = 6139 LIMIT 1 [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000802s ]
+[ sql ] [ SQL ] SELECT SUM(`profit`) AS tp_sum FROM `game` WHERE  `mid` = 6139  AND `is_win` = 1 [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT SUM(`money`) AS tp_sum FROM `game` WHERE  `mid` = 6139 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `withdraw` [ RunTime:0.000589s ]
+[ sql ] [ SQL ] SELECT SUM(`money`) AS tp_sum FROM `withdraw` WHERE  `mid` = 6139  AND `status` = 2 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `recharge` [ RunTime:0.000562s ]
+[ sql ] [ SQL ] SELECT SUM(`money`) AS tp_sum FROM `recharge` WHERE  `mid` = 6139 [ RunTime:0.000464s ]
+---------------------------------------------------------------
+
+[2022-02-19T14:05:20+08:00] 112.97.61.203 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/member/getUserInfo
+[运行时间：0.034001s] [吞吐率：29.41req/s] [内存消耗：3,290.79kb] [文件加载：80]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'accept' => '*/*',
+  'token' => 'NjEzOQ==',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'sec-fetch-mode' => 'cors',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000421s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.001249s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `id` = 6139 LIMIT 1 [ RunTime:0.000419s ]
+---------------------------------------------------------------
+
+[2022-02-19T14:05:23+08:00] 112.97.61.203 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/member/getUserBankInfo
+[运行时间：0.121392s] [吞吐率：8.24req/s] [内存消耗：3,299.84kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'accept' => '*/*',
+  'token' => 'NjEzOQ==',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'sec-fetch-mode' => 'cors',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004621s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.060828s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `id` = 6139 LIMIT 1 [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank_bind` [ RunTime:0.026788s ]
+[ sql ] [ SQL ] SELECT * FROM `bank_bind` WHERE  `uid` = 6139 LIMIT 1 [ RunTime:0.000374s ]
+---------------------------------------------------------------
+
+[2022-02-19T14:05:24+08:00] 112.97.61.203 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/member/getUserInfo
+[运行时间：0.053303s] [吞吐率：18.76req/s] [内存消耗：3,290.79kb] [文件加载：80]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'accept' => '*/*',
+  'token' => 'NjEzOQ==',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'sec-fetch-mode' => 'cors',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000366s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.012147s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `id` = 6139 LIMIT 1 [ RunTime:0.000364s ]
+---------------------------------------------------------------
+
+[2022-02-19T14:05:24+08:00] 112.97.61.203 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/member/getUserWithdrawRole
+[运行时间：0.049682s] [吞吐率：20.13req/s] [内存消耗：3,297.32kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'accept' => '*/*',
+  'token' => 'NjEzOQ==',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'sec-fetch-mode' => 'cors',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001558s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.000933s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `id` = 6139 LIMIT 1 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system` [ RunTime:0.000781s ]
+[ sql ] [ SQL ] SELECT * FROM `system` WHERE  `key` = 'base' LIMIT 1 [ RunTime:0.000262s ]
+---------------------------------------------------------------
+
+[2022-02-19T14:05:25+08:00] 112.97.61.203 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/member/getUserWithdrawList
+[运行时间：0.072461s] [吞吐率：13.80req/s] [内存消耗：3,479.88kb] [文件加载：83]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'accept' => '*/*',
+  'token' => 'NjEzOQ==',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'sec-fetch-mode' => 'cors',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024335s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.001704s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `id` = 6139 LIMIT 1 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `withdraw` [ RunTime:0.000809s ]
+[ sql ] [ SQL ] SELECT * FROM `withdraw` WHERE  `mid` = 6139 ORDER BY `id` DESC [ RunTime:0.000409s ]
+---------------------------------------------------------------
+
+[2022-02-19T14:13:13+08:00] 66.249.79.252 GET www.mihuantuanduidingjijishu65.com/
+[运行时间：0.025490s] [吞吐率：39.23req/s] [内存消耗：2,808.70kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/signed-exchange;v=b3,application/xml;q=0.9,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'amp-cache-transform' => 'google;v="1..8"',
+  'host' => 'www.mihuantuanduidingjijishu65.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-19T14:13:14+08:00] 66.249.79.250 GET www.mihuantuanduidingjijishu65.com/admin/login/index/
+[运行时间：0.019322s] [吞吐率：51.75req/s] [内存消耗：2,811.91kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/signed-exchange;v=b3,application/xml;q=0.9,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=c7vucj3fqncfnhvg4naibbm1vu',
+  'amp-cache-transform' => 'google;v="1..8"',
+  'host' => 'www.mihuantuanduidingjijishu65.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-19T14:16:29+08:00] 167.94.146.58 GET 40.83.103.135:443/
+[运行时间：0.019113s] [吞吐率：52.32req/s] [内存消耗：2,806.43kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '40.83.103.135:443',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-19T14:16:30+08:00] 167.94.146.58 GET 40.83.103.135/
+[运行时间：0.020051s] [吞吐率：49.87req/s] [内存消耗：2,806.97kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-19T14:16:31+08:00] 167.94.146.58 GET 40.83.103.135/admin/login/index/
+[运行时间：0.026707s] [吞吐率：37.44req/s] [内存消耗：2,810.33kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-19T14:28:15+08:00] 66.249.79.250 GET www.mihuantuanduidingjijishu65.com/
+[运行时间：0.019108s] [吞吐率：52.33req/s] [内存消耗：2,807.59kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/signed-exchange;v=b3,application/xml;q=0.9,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'host' => 'www.mihuantuanduidingjijishu65.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-19T14:28:16+08:00] 66.249.79.254 GET www.mihuantuanduidingjijishu65.com/admin/login/index/
+[运行时间：0.020005s] [吞吐率：49.99req/s] [内存消耗：2,811.49kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/signed-exchange;v=b3,application/xml;q=0.9,*/*;q=0.8',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=rjcqmi7ghp1q1ir45844mhb0ll',
+  'host' => 'www.mihuantuanduidingjijishu65.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-19T15:41:10+08:00] 207.46.13.128 GET admin.mihuanjishupinzhifuwudiyi44.cc/sitemap.xml.gz
+[运行时间：0.012316s] [吞吐率：81.20req/s] [内存消耗：1,192.08kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-19T15:45:58+08:00] 139.162.145.250 GET 40.83.103.135/bag2
+[运行时间：0.009513s] [吞吐率：105.12req/s] [内存消耗：1,192.03kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-19T15:50:38+08:00] 207.46.13.10 GET admin.mihuanjishupinzhifuwudiyi44.cc/sitemap.txt
+[运行时间：0.012716s] [吞吐率：78.64req/s] [内存消耗：1,192.07kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-19T15:55:00+08:00] 45.146.165.37 GET 40.83.103.135:443/
+[运行时间：0.018447s] [吞吐率：54.21req/s] [内存消耗：2,807.20kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '40.83.103.135:443',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-19T15:55:04+08:00] 45.146.165.37 GET 40.83.103.135:443/admin/login/index/
+[运行时间：0.081529s] [吞吐率：12.27req/s] [内存消耗：2,810.53kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'referer' => 'https://40.83.103.135:443/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'host' => '40.83.103.135:443',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-19T16:19:32+08:00] 207.46.13.168 GET admin.mihuanjishupinzhifuwudiyi44.cc/sitemap.xml
+[运行时间：0.012139s] [吞吐率：82.38req/s] [内存消耗：1,192.07kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-19T16:22:15+08:00] 207.46.13.128 GET admin.mihuanjishupinzhifuwudiyi44.cc/sitemaps.xml
+[运行时间：0.008973s] [吞吐率：111.45req/s] [内存消耗：1,192.08kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-19T16:43:15+08:00] 157.55.39.139 GET admin.mihuanjishupinzhifuwudiyi44.cc/atom.xml
+[运行时间：0.010161s] [吞吐率：98.42req/s] [内存消耗：1,192.07kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-19T16:50:12+08:00] 157.55.39.140 GET admin.mihuanjishupinzhifuwudiyi44.cc/sitemap_index.xml
+[运行时间：0.018778s] [吞吐率：53.25req/s] [内存消耗：1,192.09kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-19T18:00:59+08:00] 185.191.32.158 GET 40.83.103.135:443/remote/fgt_lang?lang=/../../../..//////////dev/cmdb/sslvpn_websession
+[运行时间：0.046611s] [吞吐率：21.45req/s] [内存消耗：1,192.08kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-19T20:49:08+08:00] 183.136.225.42 GET 40.83.103.135:443/
+[运行时间：0.019443s] [吞吐率：51.43req/s] [内存消耗：2,807.01kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'host' => '40.83.103.135:443',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-19T20:49:53+08:00] 183.136.225.42 GET 40.83.103.135:443/admin/login/index/
+[运行时间：0.018205s] [吞吐率：54.93req/s] [内存消耗：2,810.37kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'host' => '40.83.103.135:443',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-19T22:47:52+08:00] 45.154.255.147 GET 40.83.103.135/
+[运行时间：0.018905s] [吞吐率：52.90req/s] [内存消耗：2,807.20kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36',
+  'host' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-19T22:54:39+08:00] 45.9.20.65 GET 40.83.103.135/_profiler/empty/search/results?limit=10
+[运行时间：0.012540s] [吞吐率：79.75req/s] [内存消耗：1,192.05kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-02-19T23:00:55+08:00] 117.136.123.35 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/base
+[运行时间：0.061158s] [吞吐率：16.35req/s] [内存消耗：3,260.63kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000850s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system` [ RunTime:0.022321s ]
+[ sql ] [ SQL ] SELECT * FROM `system` WHERE  `key` = 'base' LIMIT 1 [ RunTime:0.010288s ]
+---------------------------------------------------------------
+
+[2022-02-19T23:00:55+08:00] 117.136.123.35 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/config
+[运行时间：0.128937s] [吞吐率：7.76req/s] [内存消耗：3,411.30kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000545s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.000921s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.001052s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.019002s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.041219s ]
+---------------------------------------------------------------
+
+[2022-02-19T23:00:55+08:00] 117.136.123.35 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/hotLottery
+[运行时间：0.063813s] [吞吐率：15.67req/s] [内存消耗：3,333.46kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016939s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.018501s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000343s ]
+---------------------------------------------------------------
+
+[2022-02-19T23:21:18+08:00] 121.89.200.181 GET 40.83.103.135/
+[运行时间：0.019856s] [吞吐率：50.36req/s] [内存消耗：2,807.86kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'host' => '40.83.103.135',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-02-19T23:22:18+08:00] 121.89.200.181 GET 40.83.103.135/admin/login/index/
+[运行时间：0.022065s] [吞吐率：45.32req/s] [内存消耗：2,811.51kb] [文件加载：90]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cookie' => 'PHPSESSID=67fgojgdoqkjo4ujti87u7e75n',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'host' => '40.83.103.135',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /www/wwwroot/tongchengmiyue/tp6/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-02-19T23:41:50+08:00] 111.183.69.94 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/base
+[运行时间：0.021798s] [吞吐率：45.88req/s] [内存消耗：3,260.80kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000396s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system` [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SELECT * FROM `system` WHERE  `key` = 'base' LIMIT 1 [ RunTime:0.000313s ]
+---------------------------------------------------------------
+
+[2022-02-19T23:41:50+08:00] 111.183.69.94 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/config
+[运行时间：0.083882s] [吞吐率：11.92req/s] [内存消耗：3,411.20kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006278s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.000870s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000879s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000872s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.014493s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.029358s ]
+---------------------------------------------------------------
+
+[2022-02-19T23:41:50+08:00] 111.183.69.94 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/hotLottery
+[运行时间：0.030657s] [吞吐率：32.62req/s] [内存消耗：3,333.63kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000512s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000355s ]
+---------------------------------------------------------------
+
+[2022-02-19T23:49:59+08:00] 111.183.69.94 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/base
+[运行时间：0.022987s] [吞吐率：43.50req/s] [内存消耗：3,260.68kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000520s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system` [ RunTime:0.001137s ]
+[ sql ] [ SQL ] SELECT * FROM `system` WHERE  `key` = 'base' LIMIT 1 [ RunTime:0.000283s ]
+---------------------------------------------------------------
+
+[2022-02-19T23:49:59+08:00] 111.183.69.94 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/config
+[运行时间：0.063982s] [吞吐率：15.63req/s] [内存消耗：3,411.25kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000513s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.001098s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.011834s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.025490s ]
+---------------------------------------------------------------
+
+[2022-02-19T23:50:00+08:00] 111.183.69.94 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/hotLottery
+[运行时间：0.029390s] [吞吐率：34.03req/s] [内存消耗：3,333.46kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => 'application/json, text/plain, */*',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000580s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000896s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000382s ]

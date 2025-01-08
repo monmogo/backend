@@ -1,0 +1,57 @@
+---------------------------------------------------------------
+
+[2022-08-21T05:36:05+08:00] 218.200.57.54 GET htkj.chatimdajian.com/
+[运行时间：0.405752s] [吞吐率：2.46req/s] [内存消耗：505.07kb] [文件加载：92]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-08-21T09:32:23+08:00] 58.152.77.182 GET htkj.chatimdajian.com/admin/login/index/
+[运行时间：0.514885s] [吞吐率：1.94req/s] [内存消耗：780.49kb] [文件加载：90]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.63',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\application\admin\view\login\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-08-21T09:38:58+08:00] 58.152.77.182 GET htkj.chatimdajian.com/admin/login/index/
+[运行时间：0.285098s] [吞吐率：3.51req/s] [内存消耗：507.30kb] [文件加载：93]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.63',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\application\admin\view\login\index.html [ array (
+) ]

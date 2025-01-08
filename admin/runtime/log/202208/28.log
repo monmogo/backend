@@ -1,0 +1,16 @@
+---------------------------------------------------------------
+
+[2022-08-28T01:20:52+08:00] 218.200.57.54 GET htkj.chatimdajian.com/
+[运行时间：0.500807s] [吞吐率：2.00req/s] [内存消耗：778.37kb] [文件加载：90]
+[ info ] [ LANG ] C:\wwwroot\kongjiangrenwu\hld3\admin\tp6_bhzRC3\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'host' => 'htkj.chatimdajian.com',
+)
+[ info ] [ PARAM ] array (
+)

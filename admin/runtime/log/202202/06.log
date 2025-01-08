@@ -1,0 +1,2696 @@
+---------------------------------------------------------------
+
+[2022-02-06T23:16:02+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.160685s] [吞吐率：6.22req/s] [内存消耗：3,403.03kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => 'e0c054fb984da70d5a257ec41cb27fc2',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000465s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.001034s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000854s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611396' LIMIT 1 [ RunTime:0.053194s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000923s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611396' LIMIT 1 [ RunTime:0.003365s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611396' , '4,4,1' , 0 , 1644160562 , 1644160562) [ RunTime:0.005713s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063465' LIMIT 1 [ RunTime:0.037336s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063465' LIMIT 1 [ RunTime:0.002043s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065279' LIMIT 1 [ RunTime:0.028722s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065279' LIMIT 1 [ RunTime:0.001965s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000767s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000427s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:17:01+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.125530s] [吞吐率：7.97req/s] [内存消耗：3,403.06kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => 'ede079c8131ef90c4b6ff6e8772fddfb',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000801s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000697s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611397' LIMIT 1 [ RunTime:0.029282s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000762s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611397' LIMIT 1 [ RunTime:0.002011s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611397' , '3,2,3' , 0 , 1644160621 , 1644160621) [ RunTime:0.003758s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063465' LIMIT 1 [ RunTime:0.029924s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063465' LIMIT 1 [ RunTime:0.002384s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065279' LIMIT 1 [ RunTime:0.028048s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065279' LIMIT 1 [ RunTime:0.002216s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000743s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000482s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:18:02+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.140180s] [吞吐率：7.13req/s] [内存消耗：3,403.81kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => 'f9f61626b0e84bf85f32e449e4184cf7',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000574s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.001042s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000798s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611398' LIMIT 1 [ RunTime:0.030515s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000682s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611398' LIMIT 1 [ RunTime:0.001952s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611398' , '3,4,4' , 0 , 1644160682 , 1644160682) [ RunTime:0.003683s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063466' LIMIT 1 [ RunTime:0.028510s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063466' LIMIT 1 [ RunTime:0.001890s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('5' , '202202063466' , '2,5,4' , 0 , 1644160682 , 1644160682) [ RunTime:0.003420s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065279' LIMIT 1 [ RunTime:0.029688s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065279' LIMIT 1 [ RunTime:0.002058s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000842s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000498s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:19:01+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.133772s] [吞吐率：7.48req/s] [内存消耗：3,403.09kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => 'f72ac20ce3c1255827de6819d6cb93d8',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000485s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000859s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611399' LIMIT 1 [ RunTime:0.035296s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000887s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611399' LIMIT 1 [ RunTime:0.002048s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611399' , '6,6,4' , 0 , 1644160741 , 1644160741) [ RunTime:0.008990s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063466' LIMIT 1 [ RunTime:0.026948s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063466' LIMIT 1 [ RunTime:0.002023s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065279' LIMIT 1 [ RunTime:0.027519s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065279' LIMIT 1 [ RunTime:0.002082s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000424s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:20:02+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.263828s] [吞吐率：3.79req/s] [内存消耗：3,403.84kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => '04e50c3d9b5ac3e67e7636199744dbc0',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000374s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.001082s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000917s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611400' LIMIT 1 [ RunTime:0.054978s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.001042s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611400' LIMIT 1 [ RunTime:0.003247s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611400' , '4,1,3' , 0 , 1644160802 , 1644160802) [ RunTime:0.007392s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063466' LIMIT 1 [ RunTime:0.050743s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063466' LIMIT 1 [ RunTime:0.003213s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065280' LIMIT 1 [ RunTime:0.052558s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065280' LIMIT 1 [ RunTime:0.003372s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game2' , '202202065280' , '2,6,1' , 0 , 1644160802 , 1644160802) [ RunTime:0.037042s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.001091s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000655s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:21:02+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.164112s] [吞吐率：6.09req/s] [内存消耗：3,403.81kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => '85bfad1f2203998ce7a2721403867614',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000449s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000891s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611401' LIMIT 1 [ RunTime:0.052755s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000923s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611401' LIMIT 1 [ RunTime:0.003267s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611401' , '1,1,3' , 0 , 1644160862 , 1644160862) [ RunTime:0.004549s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063467' LIMIT 1 [ RunTime:0.027973s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063467' LIMIT 1 [ RunTime:0.002112s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('5' , '202202063467' , '6,6,2' , 0 , 1644160862 , 1644160862) [ RunTime:0.003863s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065280' LIMIT 1 [ RunTime:0.027751s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065280' LIMIT 1 [ RunTime:0.003540s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000896s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000472s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:22:01+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.125143s] [吞吐率：7.99req/s] [内存消耗：3,403.06kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => '9bff52e63872fa757d807571a802a358',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000541s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000829s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611402' LIMIT 1 [ RunTime:0.032454s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611402' LIMIT 1 [ RunTime:0.001935s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611402' , '1,3,6' , 0 , 1644160921 , 1644160921) [ RunTime:0.003780s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063467' LIMIT 1 [ RunTime:0.026660s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063467' LIMIT 1 [ RunTime:0.002077s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065280' LIMIT 1 [ RunTime:0.027596s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065280' LIMIT 1 [ RunTime:0.002122s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000978s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000547s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:23:01+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.128215s] [吞吐率：7.80req/s] [内存消耗：3,403.06kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => '6713ef4690c1f36d3c6943a37a612068',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000485s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000954s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000846s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611403' LIMIT 1 [ RunTime:0.032505s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000788s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611403' LIMIT 1 [ RunTime:0.002061s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611403' , '2,2,5' , 0 , 1644160981 , 1644160981) [ RunTime:0.004301s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063467' LIMIT 1 [ RunTime:0.028997s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063467' LIMIT 1 [ RunTime:0.001956s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065280' LIMIT 1 [ RunTime:0.027713s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065280' LIMIT 1 [ RunTime:0.002066s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000774s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000455s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:24:02+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.127865s] [吞吐率：7.82req/s] [内存消耗：3,403.84kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => '551f32bbdd9f9a8b1af2d6df271e671e',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000451s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000995s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000802s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611404' LIMIT 1 [ RunTime:0.029292s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000830s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611404' LIMIT 1 [ RunTime:0.001995s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611404' , '1,3,3' , 0 , 1644161042 , 1644161042) [ RunTime:0.004204s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063468' LIMIT 1 [ RunTime:0.026775s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063468' LIMIT 1 [ RunTime:0.001972s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('5' , '202202063468' , '3,3,3' , 0 , 1644161042 , 1644161042) [ RunTime:0.004290s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065280' LIMIT 1 [ RunTime:0.028209s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065280' LIMIT 1 [ RunTime:0.002087s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000897s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000554s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:25:02+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.177706s] [吞吐率：5.63req/s] [内存消耗：3,403.81kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => '35fbd842b6171c25a43e85fbea5effd8',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000395s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.001012s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000908s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611405' LIMIT 1 [ RunTime:0.051979s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.001029s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611405' LIMIT 1 [ RunTime:0.003050s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611405' , '4,4,3' , 0 , 1644161101 , 1644161101) [ RunTime:0.005910s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063468' LIMIT 1 [ RunTime:0.041299s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063468' LIMIT 1 [ RunTime:0.001982s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065281' LIMIT 1 [ RunTime:0.027763s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065281' LIMIT 1 [ RunTime:0.002062s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game2' , '202202065281' , '5,6,4' , 0 , 1644161102 , 1644161102) [ RunTime:0.005502s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000895s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000498s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:26:02+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.154743s] [吞吐率：6.46req/s] [内存消耗：3,403.09kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => '6443ce2927d471bfba98f9d5a8a38949',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000413s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000967s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.001131s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611406' LIMIT 1 [ RunTime:0.046958s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000667s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611406' LIMIT 1 [ RunTime:0.002280s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611406' , '5,6,5' , 0 , 1644161161 , 1644161161) [ RunTime:0.003944s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063468' LIMIT 1 [ RunTime:0.029919s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063468' LIMIT 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065281' LIMIT 1 [ RunTime:0.035119s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065281' LIMIT 1 [ RunTime:0.003356s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.001018s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000615s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:27:01+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.129153s] [吞吐率：7.74req/s] [内存消耗：3,403.81kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => '3ad60004aae2968c1d64cab745d7beb1',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000408s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000834s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000769s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611407' LIMIT 1 [ RunTime:0.030205s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611407' LIMIT 1 [ RunTime:0.002023s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611407' , '1,2,4' , 0 , 1644161221 , 1644161221) [ RunTime:0.005071s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063469' LIMIT 1 [ RunTime:0.027939s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063469' LIMIT 1 [ RunTime:0.002014s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('5' , '202202063469' , '4,2,4' , 0 , 1644161221 , 1644161221) [ RunTime:0.004283s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065281' LIMIT 1 [ RunTime:0.027595s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065281' LIMIT 1 [ RunTime:0.001995s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000724s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000487s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:28:02+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.145544s] [吞吐率：6.87req/s] [内存消耗：3,403.09kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => 'b2025a98d16e479272f6c53030c1ae3d',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000515s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000970s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000696s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611408' LIMIT 1 [ RunTime:0.029935s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611408' LIMIT 1 [ RunTime:0.002016s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611408' , '5,4,2' , 0 , 1644161282 , 1644161282) [ RunTime:0.024389s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063469' LIMIT 1 [ RunTime:0.027513s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063469' LIMIT 1 [ RunTime:0.002331s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065281' LIMIT 1 [ RunTime:0.028375s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065281' LIMIT 1 [ RunTime:0.002177s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000960s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000464s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:29:01+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.128606s] [吞吐率：7.78req/s] [内存消耗：3,403.09kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => 'b5fa05964455b050dae0327d75402b36',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004724s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000911s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611409' LIMIT 1 [ RunTime:0.030095s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000851s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611409' LIMIT 1 [ RunTime:0.002086s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611409' , '5,3,1' , 0 , 1644161341 , 1644161341) [ RunTime:0.003583s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063469' LIMIT 1 [ RunTime:0.028090s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063469' LIMIT 1 [ RunTime:0.002078s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065281' LIMIT 1 [ RunTime:0.027394s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065281' LIMIT 1 [ RunTime:0.002141s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000892s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000461s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:30:02+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.233093s] [吞吐率：4.29req/s] [内存消耗：3,404.84kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => '1738a5b0be3e8864e2429b3be7f0acd7',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000385s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000993s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000893s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611410' LIMIT 1 [ RunTime:0.056084s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611410' LIMIT 1 [ RunTime:0.003319s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611410' , '1,5,2' , 0 , 1644161401 , 1644161401) [ RunTime:0.006534s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063470' LIMIT 1 [ RunTime:0.048827s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063470' LIMIT 1 [ RunTime:0.005262s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('5' , '202202063470' , '5,1,4' , 0 , 1644161401 , 1644161401) [ RunTime:0.012758s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065282' LIMIT 1 [ RunTime:0.050297s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065282' LIMIT 1 [ RunTime:0.003386s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game2' , '202202065282' , '5,5,6' , 0 , 1644161402 , 1644161402) [ RunTime:0.005763s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.001079s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000616s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:31:02+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.153439s] [吞吐率：6.52req/s] [内存消耗：3,403.09kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => 'f927a2922d761bac26ec7ade8edf1319',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000423s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000874s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000780s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611411' LIMIT 1 [ RunTime:0.056426s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.001092s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611411' LIMIT 1 [ RunTime:0.003254s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611411' , '4,6,2' , 0 , 1644161462 , 1644161462) [ RunTime:0.004658s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063470' LIMIT 1 [ RunTime:0.028784s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063470' LIMIT 1 [ RunTime:0.002013s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065282' LIMIT 1 [ RunTime:0.027811s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065282' LIMIT 1 [ RunTime:0.002099s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000877s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000452s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:31:50+08:00] 106.8.76.61 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/base
+[运行时间：0.025215s] [吞吐率：39.66req/s] [内存消耗：3,262.59kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'x-request-id' => 'ac796507e2fe5459e76602784eef2012',
+  'x-country' => 'CN',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '106.8.76.61',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '106.8.76.61',
+  'x-forwarded-for' => '106.8.76.61',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000573s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system` [ RunTime:0.001394s ]
+[ sql ] [ SQL ] SELECT * FROM `system` WHERE  `key` = 'base' LIMIT 1 [ RunTime:0.000400s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:31:50+08:00] 106.8.76.61 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/config
+[运行时间：0.068637s] [吞吐率：14.57req/s] [内存消耗：3,413.49kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'x-request-id' => 'eec16355f434574debaaeebf6ffc3bc2',
+  'x-country' => 'CN',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '106.8.76.61',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '106.8.76.61',
+  'x-forwarded-for' => '106.8.76.61',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000447s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.001475s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000972s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.001012s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.012594s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.026222s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:31:51+08:00] 106.8.76.61 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/hotLottery
+[运行时间：0.022887s] [吞吐率：43.69req/s] [内存消耗：3,335.40kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'x-request-id' => '385b92be345bcb8aa0a1897b1c92a186',
+  'x-country' => 'CN',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '106.8.76.61',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '106.8.76.61',
+  'x-forwarded-for' => '106.8.76.61',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000570s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000724s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000314s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:32:01+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.161634s] [吞吐率：6.19req/s] [内存消耗：3,403.09kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => '26eb183c0994810c4eff4c1a418ca5ad',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000795s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.001377s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.001158s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611412' LIMIT 1 [ RunTime:0.046671s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000867s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611412' LIMIT 1 [ RunTime:0.002082s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611412' , '1,2,2' , 0 , 1644161521 , 1644161521) [ RunTime:0.004338s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063470' LIMIT 1 [ RunTime:0.042661s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063470' LIMIT 1 [ RunTime:0.002003s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065282' LIMIT 1 [ RunTime:0.032215s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065282' LIMIT 1 [ RunTime:0.002587s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.001069s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000516s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:32:11+08:00] 106.8.76.61 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/base
+[运行时间：0.022527s] [吞吐率：44.39req/s] [内存消耗：3,262.59kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'x-request-id' => '567248742ca76bc2c93b203c8d1f7bd8',
+  'x-country' => 'CN',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '106.8.76.61',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '106.8.76.61',
+  'x-forwarded-for' => '106.8.76.61',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000417s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system` [ RunTime:0.001237s ]
+[ sql ] [ SQL ] SELECT * FROM `system` WHERE  `key` = 'base' LIMIT 1 [ RunTime:0.000307s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:32:11+08:00] 106.8.76.61 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/config
+[运行时间：0.084652s] [吞吐率：11.81req/s] [内存消耗：3,413.43kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'x-request-id' => 'c9550f7882a7460873e410f5032f1367',
+  'x-country' => 'CN',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '106.8.76.61',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '106.8.76.61',
+  'x-forwarded-for' => '106.8.76.61',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000568s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.001264s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000827s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000839s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.017369s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.040757s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:32:11+08:00] 106.8.76.61 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/hotLottery
+[运行时间：0.023746s] [吞吐率：42.11req/s] [内存消耗：3,335.41kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuantuanduidingjijishu97.com/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuantuanduidingjijishu97.com',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'x-request-id' => '70e13adf6afce14f0237d619718a7658',
+  'x-country' => 'CN',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '106.8.76.61',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '106.8.76.61',
+  'x-forwarded-for' => '106.8.76.61',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000418s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000954s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000383s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:32:18+08:00] 106.8.76.61 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/base
+[运行时间：0.024841s] [吞吐率：40.26req/s] [内存消耗：3,262.59kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'x-request-id' => '0d58ded0df77446536980e5d77eab5a6',
+  'x-country' => 'CN',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '106.8.76.61',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '106.8.76.61',
+  'x-forwarded-for' => '106.8.76.61',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000375s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system` [ RunTime:0.000950s ]
+[ sql ] [ SQL ] SELECT * FROM `system` WHERE  `key` = 'base' LIMIT 1 [ RunTime:0.000308s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:32:18+08:00] 106.8.76.61 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/config
+[运行时间：0.061358s] [吞吐率：16.30req/s] [内存消耗：3,413.17kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'x-request-id' => '49b1b3b746670a1167faf31cbaf1507d',
+  'x-country' => 'CN',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '106.8.76.61',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '106.8.76.61',
+  'x-forwarded-for' => '106.8.76.61',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000597s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.001053s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000740s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000767s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.009194s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.024906s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:32:18+08:00] 106.8.76.61 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/hotLottery
+[运行时间：0.027678s] [吞吐率：36.13req/s] [内存消耗：3,335.41kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'x-request-id' => '9dd88ac02366decf5e31b545b2872d50',
+  'x-country' => 'CN',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '106.8.76.61',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '106.8.76.61',
+  'x-forwarded-for' => '106.8.76.61',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000619s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000829s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000312s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:32:46+08:00] 106.8.76.61 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/member/doLogin?username=wang19940522&password=wang19940522...
+[运行时间：0.024504s] [吞吐率：40.81req/s] [内存消耗：3,280.70kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'x-request-id' => 'a6552a6d99e83afb1529bd728c4b263c',
+  'x-country' => 'CN',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '106.8.76.61',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '106.8.76.61',
+  'x-forwarded-for' => '106.8.76.61',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'wang19940522',
+  'password' => 'wang19940522...',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000493s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.000968s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `username` = 'wang19940522' LIMIT 1 [ RunTime:0.000636s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:33:00+08:00] 106.8.76.61 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/member/doLogin?username=wang19940522&password=wang19940520...
+[运行时间：0.026662s] [吞吐率：37.51req/s] [内存消耗：3,280.71kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'x-request-id' => '349de432da0f7535ea52adb1f9f69f51',
+  'x-country' => 'CN',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '106.8.76.61',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '106.8.76.61',
+  'x-forwarded-for' => '106.8.76.61',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'wang19940522',
+  'password' => 'wang19940520...',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000641s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.001050s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `username` = 'wang19940522' LIMIT 1 [ RunTime:0.000670s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:33:02+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.126696s] [吞吐率：7.89req/s] [内存消耗：3,403.81kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => 'b83c37a58df15e5050415671cfc5d9c6',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000401s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000890s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000779s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611413' LIMIT 1 [ RunTime:0.030947s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611413' LIMIT 1 [ RunTime:0.001968s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611413' , '6,4,2' , 0 , 1644161582 , 1644161582) [ RunTime:0.003949s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063471' LIMIT 1 [ RunTime:0.026807s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063471' LIMIT 1 [ RunTime:0.001906s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('5' , '202202063471' , '1,1,5' , 0 , 1644161582 , 1644161582) [ RunTime:0.003430s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065282' LIMIT 1 [ RunTime:0.027957s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065282' LIMIT 1 [ RunTime:0.002045s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000743s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000463s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:33:10+08:00] 106.8.76.61 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/member/doLogin?username=wang19940521&password=wang19940520...
+[运行时间：0.026264s] [吞吐率：38.07req/s] [内存消耗：3,276.94kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'x-request-id' => 'e763f3e4373e34f3b0f17c36224d2adb',
+  'x-country' => 'CN',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '106.8.76.61',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '106.8.76.61',
+  'x-forwarded-for' => '106.8.76.61',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'wang19940521',
+  'password' => 'wang19940520...',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000453s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.000880s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `username` = 'wang19940521' LIMIT 1 [ RunTime:0.001104s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:33:12+08:00] 106.8.76.61 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/member/doLogin?username=wang19940521&password=wang19940520...
+[运行时间：0.022754s] [吞吐率：43.95req/s] [内存消耗：3,276.92kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'x-request-id' => 'b94ef44b4e64d97ecdaa444df83b1ad7',
+  'x-country' => 'CN',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '106.8.76.61',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '106.8.76.61',
+  'x-forwarded-for' => '106.8.76.61',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'wang19940521',
+  'password' => 'wang19940520...',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000468s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `username` = 'wang19940521' LIMIT 1 [ RunTime:0.001129s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:33:12+08:00] 106.8.76.61 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/member/doLogin?username=wang19940521&password=wang19940520...
+[运行时间：0.024705s] [吞吐率：40.48req/s] [内存消耗：3,276.94kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'x-request-id' => '852fdcb1a9f4d098fa032a3a9f841a1d',
+  'x-country' => 'CN',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '106.8.76.61',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '106.8.76.61',
+  'x-forwarded-for' => '106.8.76.61',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'wang19940521',
+  'password' => 'wang19940520...',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000576s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.001018s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `username` = 'wang19940521' LIMIT 1 [ RunTime:0.001314s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:33:24+08:00] 106.8.76.61 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/member/doLogin?username=wang19940522&password=wang19940521...
+[运行时间：0.022963s] [吞吐率：43.55req/s] [内存消耗：3,280.71kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'x-request-id' => '9090842b86bd3f0ea44911c319ab5545',
+  'x-country' => 'CN',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '106.8.76.61',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '106.8.76.61',
+  'x-forwarded-for' => '106.8.76.61',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'wang19940522',
+  'password' => 'wang19940521...',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000475s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.000892s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `username` = 'wang19940522' LIMIT 1 [ RunTime:0.000570s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:33:32+08:00] 106.8.76.61 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/member/doLogin?username=wang19940522&password=wang19940521...
+[运行时间：0.036073s] [吞吐率：27.72req/s] [内存消耗：3,280.71kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'x-request-id' => 'abea75b9a4b2fb163320c51d8e63870c',
+  'x-country' => 'CN',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '106.8.76.61',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '106.8.76.61',
+  'x-forwarded-for' => '106.8.76.61',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'wang19940522',
+  'password' => 'wang19940521...',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000558s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.001066s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `username` = 'wang19940522' LIMIT 1 [ RunTime:0.001007s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:33:39+08:00] 106.8.76.61 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/member/doLogin?username=wang19940522&password=wang19940521.
+[运行时间：0.023206s] [吞吐率：43.09req/s] [内存消耗：3,280.71kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'x-request-id' => 'ff4044e54c986de367d1d28330ef46fc',
+  'x-country' => 'CN',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '106.8.76.61',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '106.8.76.61',
+  'x-forwarded-for' => '106.8.76.61',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'wang19940522',
+  'password' => 'wang19940521.',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000580s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.000900s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `username` = 'wang19940522' LIMIT 1 [ RunTime:0.000594s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:33:52+08:00] 106.8.76.61 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/member/doLogin?username=wang19940522&password=wang19940520.
+[运行时间：0.023581s] [吞吐率：42.41req/s] [内存消耗：3,280.71kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'x-request-id' => '38096db20c047c4a00c36599b856d631',
+  'x-country' => 'CN',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '106.8.76.61',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '106.8.76.61',
+  'x-forwarded-for' => '106.8.76.61',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'wang19940522',
+  'password' => 'wang19940520.',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000560s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `username` = 'wang19940522' LIMIT 1 [ RunTime:0.000618s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:34:01+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.126029s] [吞吐率：7.93req/s] [内存消耗：3,403.09kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => '28f2b1ef773f5cf184eb826d87a0f813',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000499s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.001053s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000775s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611414' LIMIT 1 [ RunTime:0.030778s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.001871s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611414' LIMIT 1 [ RunTime:0.002147s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611414' , '1,4,1' , 0 , 1644161641 , 1644161641) [ RunTime:0.003492s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063471' LIMIT 1 [ RunTime:0.028338s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063471' LIMIT 1 [ RunTime:0.001925s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065282' LIMIT 1 [ RunTime:0.027387s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065282' LIMIT 1 [ RunTime:0.002097s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000824s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000475s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:34:47+08:00] 106.8.76.61 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/base
+[运行时间：0.022636s] [吞吐率：44.18req/s] [内存消耗：3,262.63kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'x-request-id' => '48a746dd767878f006bbc21f396b89d8',
+  'x-country' => 'CN',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '106.8.76.61',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '106.8.76.61',
+  'x-forwarded-for' => '106.8.76.61',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000530s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system` [ RunTime:0.000848s ]
+[ sql ] [ SQL ] SELECT * FROM `system` WHERE  `key` = 'base' LIMIT 1 [ RunTime:0.000249s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:34:47+08:00] 106.8.76.61 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/config
+[运行时间：0.062669s] [吞吐率：15.96req/s] [内存消耗：3,413.13kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'x-request-id' => 'daae6dcfeb9d7cbca44bacb9bb50c51e',
+  'x-country' => 'CN',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '106.8.76.61',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '106.8.76.61',
+  'x-forwarded-for' => '106.8.76.61',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000617s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.000917s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000897s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000876s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.010076s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.025797s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:34:47+08:00] 106.8.76.61 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/hotLottery
+[运行时间：0.022889s] [吞吐率：43.69req/s] [内存消耗：3,335.41kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'x-request-id' => 'fa7f66a87a384eaff04df3361dc139a0',
+  'x-country' => 'CN',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '106.8.76.61',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '106.8.76.61',
+  'x-forwarded-for' => '106.8.76.61',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000515s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000892s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000330s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:35:04+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.481331s] [吞吐率：2.08req/s] [内存消耗：3,403.81kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => '9c93503e82975ab4812267de34fc6031',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012533s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.001039s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000937s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611415' LIMIT 1 [ RunTime:0.093527s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.013776s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611415' LIMIT 1 [ RunTime:0.003368s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611415' , '6,5,1' , 0 , 1644161703 , 1644161703) [ RunTime:0.071334s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063471' LIMIT 1 [ RunTime:0.077941s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063471' LIMIT 1 [ RunTime:0.015576s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065283' LIMIT 1 [ RunTime:0.093044s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065283' LIMIT 1 [ RunTime:0.015541s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game2' , '202202065283' , '5,3,1' , 0 , 1644161704 , 1644161704) [ RunTime:0.020639s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000982s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000628s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:35:15+08:00] 106.8.76.61 POST admin.mihuanjishupinzhifuwudiyi44.cc/api/member/doRegister
+[运行时间：0.016019s] [吞吐率：62.43req/s] [内存消耗：2,365.59kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded;charset=UTF-8',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'sec-fetch-mode' => 'cors',
+  'content-length' => '56',
+  'connection' => 'close',
+  'x-request-id' => '1fe6fd8d097550837d1a0b56a56e930d',
+  'x-country' => 'CN',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '106.8.76.61',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '106.8.76.61',
+  'x-forwarded-for' => '106.8.76.61',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'wang19940521',
+  'password' => 'wang19940520...',
+  'code' => '1921',
+)
+---------------------------------------------------------------
+
+[2022-02-06T23:35:22+08:00] 106.8.76.61 POST admin.mihuanjishupinzhifuwudiyi44.cc/api/member/doRegister
+[运行时间：0.116544s] [吞吐率：8.58req/s] [内存消耗：3,330.12kb] [文件加载：80]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded;charset=UTF-8',
+  'user-agent' => 'meimaweb-android',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'sec-fetch-mode' => 'cors',
+  'content-length' => '53',
+  'connection' => 'close',
+  'x-request-id' => '39110102093c4de0eec8c4b10b587b3d',
+  'x-country' => 'CN',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '106.8.76.61',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '106.8.76.61',
+  'x-forwarded-for' => '106.8.76.61',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'wang19940521',
+  'password' => 'wang19940520',
+  'code' => '1921',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024878s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.016212s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `code` = 1921 LIMIT 1 [ RunTime:0.019744s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:36:01+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.130752s] [吞吐率：7.65req/s] [内存消耗：3,403.84kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => '60a9b1a3d88c6efb71909b6b3e093859',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000639s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000909s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000765s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611416' LIMIT 1 [ RunTime:0.029406s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000703s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611416' LIMIT 1 [ RunTime:0.002089s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611416' , '1,2,4' , 0 , 1644161761 , 1644161761) [ RunTime:0.004104s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063472' LIMIT 1 [ RunTime:0.027764s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063472' LIMIT 1 [ RunTime:0.001934s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('5' , '202202063472' , '6,1,3' , 0 , 1644161761 , 1644161761) [ RunTime:0.003807s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065283' LIMIT 1 [ RunTime:0.029887s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065283' LIMIT 1 [ RunTime:0.002090s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000770s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000481s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:37:02+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.124590s] [吞吐率：8.03req/s] [内存消耗：3,403.09kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => '2939ba800d8df53c106112c86658a42a',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000576s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000812s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611417' LIMIT 1 [ RunTime:0.030688s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000814s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611417' LIMIT 1 [ RunTime:0.002161s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611417' , '2,6,1' , 0 , 1644161821 , 1644161821) [ RunTime:0.003497s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063472' LIMIT 1 [ RunTime:0.028659s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063472' LIMIT 1 [ RunTime:0.001989s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065283' LIMIT 1 [ RunTime:0.027391s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065283' LIMIT 1 [ RunTime:0.002022s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000793s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000423s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:38:01+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.125818s] [吞吐率：7.95req/s] [内存消耗：3,403.09kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => 'ad486e9bf865fe2d791413bf02b8ebff',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000501s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.001020s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611418' LIMIT 1 [ RunTime:0.029165s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000788s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611418' LIMIT 1 [ RunTime:0.002038s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611418' , '1,1,4' , 0 , 1644161881 , 1644161881) [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063472' LIMIT 1 [ RunTime:0.028894s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063472' LIMIT 1 [ RunTime:0.002072s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065283' LIMIT 1 [ RunTime:0.028369s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065283' LIMIT 1 [ RunTime:0.002124s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000884s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000456s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:39:01+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.138795s] [吞吐率：7.20req/s] [内存消耗：3,403.84kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => '5920c361bb879b2c0697d26d1f9055c5',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000476s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000958s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000824s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611419' LIMIT 1 [ RunTime:0.030103s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000802s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611419' LIMIT 1 [ RunTime:0.002069s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611419' , '3,3,2' , 0 , 1644161941 , 1644161941) [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063473' LIMIT 1 [ RunTime:0.035857s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063473' LIMIT 1 [ RunTime:0.003128s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('5' , '202202063473' , '4,4,1' , 0 , 1644161941 , 1644161941) [ RunTime:0.004120s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065283' LIMIT 1 [ RunTime:0.029051s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065283' LIMIT 1 [ RunTime:0.002016s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000693s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000460s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:40:02+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.312426s] [吞吐率：3.20req/s] [内存消耗：3,403.81kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => '3f002c0c41f1842a689dd107a10c3f85',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001975s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000952s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000914s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611420' LIMIT 1 [ RunTime:0.053363s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000997s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611420' LIMIT 1 [ RunTime:0.003272s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611420' , '4,3,3' , 0 , 1644162002 , 1644162002) [ RunTime:0.016788s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063473' LIMIT 1 [ RunTime:0.061958s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063473' LIMIT 1 [ RunTime:0.003194s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065284' LIMIT 1 [ RunTime:0.090847s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065284' LIMIT 1 [ RunTime:0.003382s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game2' , '202202065284' , '4,6,5' , 0 , 1644162002 , 1644162002) [ RunTime:0.027337s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.001116s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000648s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:41:02+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.137494s] [吞吐率：7.27req/s] [内存消耗：3,403.09kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => 'b1d1bcc14a11ba4ade45d5caee9ae714',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000610s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000920s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611421' LIMIT 1 [ RunTime:0.029215s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000782s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611421' LIMIT 1 [ RunTime:0.001987s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611421' , '3,5,3' , 0 , 1644162062 , 1644162062) [ RunTime:0.004636s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063473' LIMIT 1 [ RunTime:0.028987s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063473' LIMIT 1 [ RunTime:0.002018s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065284' LIMIT 1 [ RunTime:0.027625s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065284' LIMIT 1 [ RunTime:0.002052s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000872s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000480s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:42:01+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.130447s] [吞吐率：7.67req/s] [内存消耗：3,403.84kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => '4eb754f02a452fa26c9574b5928624f8',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000380s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000698s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000659s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611422' LIMIT 1 [ RunTime:0.029943s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000716s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611422' LIMIT 1 [ RunTime:0.002048s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611422' , '4,1,1' , 0 , 1644162121 , 1644162121) [ RunTime:0.006044s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063474' LIMIT 1 [ RunTime:0.029093s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063474' LIMIT 1 [ RunTime:0.001890s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('5' , '202202063474' , '4,4,1' , 0 , 1644162121 , 1644162121) [ RunTime:0.002993s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065284' LIMIT 1 [ RunTime:0.028937s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065284' LIMIT 1 [ RunTime:0.002091s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000809s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000452s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:43:01+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.136042s] [吞吐率：7.35req/s] [内存消耗：3,403.09kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => '60b3465a1401b5cd561cc40d4c5054d2',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000640s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000723s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611423' LIMIT 1 [ RunTime:0.029116s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000720s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611423' LIMIT 1 [ RunTime:0.001947s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611423' , '2,3,2' , 0 , 1644162181 , 1644162181) [ RunTime:0.003548s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063474' LIMIT 1 [ RunTime:0.028498s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063474' LIMIT 1 [ RunTime:0.002009s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065284' LIMIT 1 [ RunTime:0.038158s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065284' LIMIT 1 [ RunTime:0.002070s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000844s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000616s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:44:02+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.125707s] [吞吐率：7.95req/s] [内存消耗：3,403.09kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => 'ca52e73c0661a4a77e382a218f3099e0',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000604s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000946s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000774s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611424' LIMIT 1 [ RunTime:0.030423s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000859s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611424' LIMIT 1 [ RunTime:0.002095s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611424' , '3,5,2' , 0 , 1644162242 , 1644162242) [ RunTime:0.003736s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063474' LIMIT 1 [ RunTime:0.028358s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063474' LIMIT 1 [ RunTime:0.001947s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065284' LIMIT 1 [ RunTime:0.027675s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065284' LIMIT 1 [ RunTime:0.001995s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000717s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000447s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:45:02+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.422257s] [吞吐率：2.37req/s] [内存消耗：3,404.81kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => 'fd08be0d3d8030a9867374a8bea4e4f7',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000401s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.001072s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000921s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611425' LIMIT 1 [ RunTime:0.053672s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.001104s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611425' LIMIT 1 [ RunTime:0.003121s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611425' , '4,6,2' , 0 , 1644162302 , 1644162302) [ RunTime:0.034195s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063475' LIMIT 1 [ RunTime:0.047102s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063475' LIMIT 1 [ RunTime:0.003348s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('5' , '202202063475' , '4,3,1' , 0 , 1644162302 , 1644162302) [ RunTime:0.054739s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065285' LIMIT 1 [ RunTime:0.082683s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065285' LIMIT 1 [ RunTime:0.026794s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game2' , '202202065285' , '5,3,4' , 0 , 1644162302 , 1644162302) [ RunTime:0.038801s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.030742s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000655s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:46:01+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.121477s] [吞吐率：8.23req/s] [内存消耗：3,403.09kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => 'e3cd964a856451006f2bc319c1c64855',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000396s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000771s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611426' LIMIT 1 [ RunTime:0.029031s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000780s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611426' LIMIT 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611426' , '3,3,6' , 0 , 1644162361 , 1644162361) [ RunTime:0.003880s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063475' LIMIT 1 [ RunTime:0.026880s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063475' LIMIT 1 [ RunTime:0.002160s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065285' LIMIT 1 [ RunTime:0.027388s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065285' LIMIT 1 [ RunTime:0.002088s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000541s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:47:01+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.122792s] [吞吐率：8.14req/s] [内存消耗：3,403.09kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => 'fe25e1a9fc379ea53144a8565359e8b6',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000530s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.001013s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000784s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611427' LIMIT 1 [ RunTime:0.029388s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611427' LIMIT 1 [ RunTime:0.001941s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611427' , '3,4,3' , 0 , 1644162421 , 1644162421) [ RunTime:0.003626s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063475' LIMIT 1 [ RunTime:0.028068s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063475' LIMIT 1 [ RunTime:0.001965s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065285' LIMIT 1 [ RunTime:0.027587s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065285' LIMIT 1 [ RunTime:0.002124s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000762s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000447s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:47:21+08:00] 27.189.50.131 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/base
+[运行时间：0.022625s] [吞吐率：44.20req/s] [内存消耗：3,262.67kb] [文件加载：79]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'x-request-id' => 'a85b8186d418ff722027ec8cd43ef7a8',
+  'x-country' => 'CN',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '27.189.50.131',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '27.189.50.131',
+  'x-forwarded-for' => '27.189.50.131',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000558s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system` [ RunTime:0.000988s ]
+[ sql ] [ SQL ] SELECT * FROM `system` WHERE  `key` = 'base' LIMIT 1 [ RunTime:0.000344s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:47:21+08:00] 27.189.50.131 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/system/config
+[运行时间：0.059963s] [吞吐率：16.68req/s] [内存消耗：3,413.28kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'x-request-id' => '41ad5c99d9ff0c4d9af22ac666817ac8',
+  'x-country' => 'CN',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '27.189.50.131',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '27.189.50.131',
+  'x-forwarded-for' => '27.189.50.131',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000297s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.000776s ]
+[ sql ] [ SQL ] SELECT `text` FROM `notice` WHERE  `hot` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `status` = 1 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `video` [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1  AND `vod_hot` = 1 ORDER BY `id` ASC [ RunTime:0.009064s ]
+[ sql ] [ SQL ] SELECT * FROM `video` WHERE  `vod_status` = 1 ORDER BY rand(),`id` ASC LIMIT 8 [ RunTime:0.024991s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:47:21+08:00] 27.189.50.131 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/Lottery/hotLottery
+[运行时间：0.024603s] [吞吐率：40.65req/s] [内存消耗：3,335.45kb] [文件加载：81]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh,zh-CN;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://www.mihuanjishupinzhifuwudiyi50.cc/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'cross-site',
+  'x-requested-with' => 'com.mdcm.hengyao',
+  'origin' => 'https://www.mihuanjishupinzhifuwudiyi50.cc',
+  'user-agent' => 'meimaweb-android',
+  'accept' => 'application/json, text/plain, */*',
+  'connection' => 'close',
+  'x-request-id' => '987a5781e62fb940256c1e06d62517bd',
+  'x-country' => 'CN',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '27.189.50.131',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '27.189.50.131',
+  'x-forwarded-for' => '27.189.50.131',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000591s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000973s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery` WHERE  `status` = 1  AND `hot` = 1 ORDER BY `id` ASC [ RunTime:0.000337s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:48:02+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.142765s] [吞吐率：7.00req/s] [内存消耗：3,403.84kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => 'fea9ae4206da7c3add02eb6b0a67cb03',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000399s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000897s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000846s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611428' LIMIT 1 [ RunTime:0.038201s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611428' LIMIT 1 [ RunTime:0.001939s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611428' , '1,3,6' , 0 , 1644162482 , 1644162482) [ RunTime:0.004254s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063476' LIMIT 1 [ RunTime:0.027114s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063476' LIMIT 1 [ RunTime:0.001976s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('5' , '202202063476' , '1,6,2' , 0 , 1644162482 , 1644162482) [ RunTime:0.003409s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065285' LIMIT 1 [ RunTime:0.028610s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065285' LIMIT 1 [ RunTime:0.002132s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000831s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000461s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:49:01+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.134005s] [吞吐率：7.46req/s] [内存消耗：3,403.06kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => '06bcbb5cc7c7ecbb2554f259afff68d6',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000506s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000986s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611429' LIMIT 1 [ RunTime:0.030251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000833s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611429' LIMIT 1 [ RunTime:0.001979s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611429' , '1,2,1' , 0 , 1644162541 , 1644162541) [ RunTime:0.004236s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063476' LIMIT 1 [ RunTime:0.026667s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063476' LIMIT 1 [ RunTime:0.001951s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065285' LIMIT 1 [ RunTime:0.027476s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065285' LIMIT 1 [ RunTime:0.002015s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000863s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000466s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:50:03+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.359237s] [吞吐率：2.78req/s] [内存消耗：3,403.81kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => 'a53a982091c4c88b588475f293a8d54c',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017834s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.001190s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000931s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611430' LIMIT 1 [ RunTime:0.053075s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.001164s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611430' LIMIT 1 [ RunTime:0.003281s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611430' , '6,3,5' , 0 , 1644162603 , 1644162603) [ RunTime:0.018380s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063476' LIMIT 1 [ RunTime:0.088483s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063476' LIMIT 1 [ RunTime:0.003334s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065286' LIMIT 1 [ RunTime:0.084366s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065286' LIMIT 1 [ RunTime:0.003366s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game2' , '202202065286' , '5,6,3' , 0 , 1644162603 , 1644162603) [ RunTime:0.037336s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.001003s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000610s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:51:02+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.128315s] [吞吐率：7.79req/s] [内存消耗：3,403.81kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => 'c4311471f937ce3d1993c55261c23e83',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000452s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000733s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000689s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611431' LIMIT 1 [ RunTime:0.029253s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611431' LIMIT 1 [ RunTime:0.002045s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611431' , '2,5,4' , 0 , 1644162662 , 1644162662) [ RunTime:0.004527s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063477' LIMIT 1 [ RunTime:0.028982s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063477' LIMIT 1 [ RunTime:0.002004s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('5' , '202202063477' , '1,1,4' , 0 , 1644162662 , 1644162662) [ RunTime:0.003634s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065286' LIMIT 1 [ RunTime:0.028452s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065286' LIMIT 1 [ RunTime:0.002067s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000777s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000450s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:52:01+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.124918s] [吞吐率：8.01req/s] [内存消耗：3,403.09kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => '645c08184554c4ca3b597b9dad77d54c',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000564s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000967s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611432' LIMIT 1 [ RunTime:0.030970s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611432' LIMIT 1 [ RunTime:0.001967s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611432' , '3,6,6' , 0 , 1644162721 , 1644162721) [ RunTime:0.003807s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063477' LIMIT 1 [ RunTime:0.028653s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063477' LIMIT 1 [ RunTime:0.001970s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065286' LIMIT 1 [ RunTime:0.027330s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065286' LIMIT 1 [ RunTime:0.002060s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000826s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000419s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:53:01+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.126299s] [吞吐率：7.92req/s] [内存消耗：3,403.06kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => 'ccffcad33450bc21cc43b89ed43ee4d1',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000704s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.001015s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000760s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611433' LIMIT 1 [ RunTime:0.031443s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000821s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611433' LIMIT 1 [ RunTime:0.002061s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611433' , '5,6,3' , 0 , 1644162781 , 1644162781) [ RunTime:0.003835s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063477' LIMIT 1 [ RunTime:0.028295s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063477' LIMIT 1 [ RunTime:0.001999s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065286' LIMIT 1 [ RunTime:0.028021s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065286' LIMIT 1 [ RunTime:0.001995s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000410s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:54:01+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.148140s] [吞吐率：6.75req/s] [内存消耗：3,403.84kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => 'd639871738b065a3e171f978b984ba7b',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000469s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000923s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000800s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611434' LIMIT 1 [ RunTime:0.030795s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000882s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611434' LIMIT 1 [ RunTime:0.001967s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611434' , '3,2,5' , 0 , 1644162841 , 1644162841) [ RunTime:0.003588s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063478' LIMIT 1 [ RunTime:0.028379s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063478' LIMIT 1 [ RunTime:0.010254s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('5' , '202202063478' , '1,2,3' , 0 , 1644162841 , 1644162841) [ RunTime:0.003595s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065286' LIMIT 1 [ RunTime:0.029729s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065286' LIMIT 1 [ RunTime:0.002005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000837s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000475s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:55:01+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.182643s] [吞吐率：5.48req/s] [内存消耗：3,403.84kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => '0c814154376624109065cd86a1ef0d8a',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000400s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000814s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611435' LIMIT 1 [ RunTime:0.038649s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000970s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611435' LIMIT 1 [ RunTime:0.003252s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611435' , '5,1,5' , 0 , 1644162901 , 1644162901) [ RunTime:0.003507s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063478' LIMIT 1 [ RunTime:0.048125s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063478' LIMIT 1 [ RunTime:0.003211s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065287' LIMIT 1 [ RunTime:0.049599s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065287' LIMIT 1 [ RunTime:0.003409s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game2' , '202202065287' , '4,4,5' , 0 , 1644162901 , 1644162901) [ RunTime:0.003379s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.001026s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000627s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:56:02+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.125007s] [吞吐率：8.00req/s] [内存消耗：3,403.09kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => '1f02756e2b471ec317777688936eb8b3',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000601s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000869s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611436' LIMIT 1 [ RunTime:0.029698s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000725s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611436' LIMIT 1 [ RunTime:0.002407s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611436' , '1,1,3' , 0 , 1644162962 , 1644162962) [ RunTime:0.003701s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063478' LIMIT 1 [ RunTime:0.028526s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063478' LIMIT 1 [ RunTime:0.001969s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065287' LIMIT 1 [ RunTime:0.027697s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065287' LIMIT 1 [ RunTime:0.002081s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000850s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000449s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:57:01+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.127164s] [吞吐率：7.86req/s] [内存消耗：3,403.84kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => '72a2249d1011b4f33ce584e6aaffc49c',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000570s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000910s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000754s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611437' LIMIT 1 [ RunTime:0.029469s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611437' LIMIT 1 [ RunTime:0.002022s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611437' , '3,5,5' , 0 , 1644163021 , 1644163021) [ RunTime:0.003560s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063479' LIMIT 1 [ RunTime:0.027787s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063479' LIMIT 1 [ RunTime:0.002002s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('5' , '202202063479' , '5,1,2' , 0 , 1644163021 , 1644163021) [ RunTime:0.003507s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065287' LIMIT 1 [ RunTime:0.027826s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065287' LIMIT 1 [ RunTime:0.002006s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000770s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000422s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:58:02+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.123574s] [吞吐率：8.09req/s] [内存消耗：3,403.09kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => 'deb7eab2fb5701bca4417a168754b877',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000580s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000880s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611438' LIMIT 1 [ RunTime:0.029255s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000703s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611438' LIMIT 1 [ RunTime:0.002003s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611438' , '5,6,2' , 0 , 1644163082 , 1644163082) [ RunTime:0.004581s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063479' LIMIT 1 [ RunTime:0.027920s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063479' LIMIT 1 [ RunTime:0.001961s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065287' LIMIT 1 [ RunTime:0.027758s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065287' LIMIT 1 [ RunTime:0.002083s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000825s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000493s ]
+---------------------------------------------------------------
+
+[2022-02-06T23:59:01+08:00] 40.83.103.135 GET admin.mihuanjishupinzhifuwudiyi44.cc/api/LotteryApi/autoProgram
+[运行时间：0.130530s] [吞吐率：7.66req/s] [内存消耗：3,403.09kb] [文件加载：82]
+[ info ] [ LANG ] /www/wwwroot/tongchengmiyue/tp6/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'curl/7.29.0',
+  'connection' => 'close',
+  'x-request-id' => '72403ff1f88eec832bb2223945140780',
+  'x-country' => 'HK',
+  'x-forwarded-proto' => 'https',
+  'x-forward-scheme' => 'https',
+  'x-real-ip' => '40.83.103.135',
+  'host' => 'admin.mihuanjishupinzhifuwudiyi44.cc',
+  'x-forward-for' => '40.83.103.135',
+  'x-forwarded-for' => '40.83.103.135',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000371s ] mysql:host=127.0.0.1;dbname=tcmy;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery` [ RunTime:0.000700s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`status`,`rule`,`cid`,`condition`,`hot`,`key`,`ico`,`create_time`,`update_time` FROM `lottery` WHERE  `status` = 1 ORDER BY `id` ASC [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_kj` [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game1'  AND `expect` = '2022020611439' LIMIT 1 [ RunTime:0.029250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lottery_yukaijiang` [ RunTime:0.000706s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game1'  AND `expect` = '2022020611439' LIMIT 1 [ RunTime:0.002002s ]
+[ sql ] [ SQL ] INSERT INTO `lottery_kj` (`key` , `expect` , `opencode` , `is_yukaijiang` , `create_time` , `update_time`) VALUES ('game1' , '2022020611439' , '6,4,4' , 0 , 1644163141 , 1644163141) [ RunTime:0.011638s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = '5'  AND `expect` = '202202063479' LIMIT 1 [ RunTime:0.028997s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = '5'  AND `expect` = '202202063479' LIMIT 1 [ RunTime:0.001985s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_kj` WHERE  `key` = 'game2'  AND `expect` = '202202065287' LIMIT 1 [ RunTime:0.027824s ]
+[ sql ] [ SQL ] SELECT * FROM `lottery_yukaijiang` WHERE  `key` = 'game2'  AND `expect` = '202202065287' LIMIT 1 [ RunTime:0.001992s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `game` [ RunTime:0.000682s ]
+[ sql ] [ SQL ] SELECT * FROM `game` WHERE  `status` = 0 [ RunTime:0.000428s ]
